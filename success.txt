@@ -1,0 +1,828 @@
+/run/cloud-init/ds-identify.log
+/run/cloud-init/cloud-init-generator.log
+/var/log/installer/subiquity-server-info.log
+/var/log/installer/ubuntu_bootstrap.log
+/var/log/installer/cloud-init.log
+/var/log/installer/subiquity-server-debug.log
+/var/log/installer/block/discover.log
+/var/log/installer/cloud-init-output.log
+/var/log/installer/curtin-install.log
+/var/log/cloud-init.log
+/var/log/gpu-manager.log
+/var/log/dist-upgrade/main.log
+/var/log/dist-upgrade/term.log
+/var/log/dist-upgrade/apt-term.log
+/var/log/dist-upgrade/history.log
+/var/log/dist-upgrade/apt.log
+/var/log/fontconfig.log
+/var/log/bootstrap.log
+/var/log/unattended-upgrades/unattended-upgrades.log
+/var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+/var/log/unattended-upgrades/unattended-upgrades-shutdown.log
+/var/log/alternatives.log
+/var/log/ubuntu-advantage-apt-hook.log
+/var/log/cloud-init-output.log
+/var/log/dpkg.log
+/var/log/apport.log
+/var/log/apache2/access.log
+/var/log/apache2/error.log
+/var/log/apache2/other_vhosts_access.log
+/var/log/auth.log
+/var/log/apt/term.log
+/var/log/apt/history.log
+/var/log/boot.log
+/var/log/ubuntu-advantage.log
+/var/log/kern.log
+/var/snap/mysql/104/log/query.log
+/var/snap/mysql/104/log/error.log
+/var/snap/mysql/104/log/mysql-bin.log
+/var/snap/mysql/104/log/mysql-slow.log
+/var/snap/mysql/92/log/query.log
+/var/snap/mysql/92/log/error.log
+/var/snap/mysql/92/log/mysql-bin.log
+/var/snap/mysql/92/log/mysql-slow.log
+/home/thiagomurta/.copilot/logs/process-1790034108330-33445.log
+/home/thiagomurta/.copilot/logs/process-1790982300371-9240.log
+/home/thiagomurta/.copilot/logs/process-1790083616073-22514.log
+/home/thiagomurta/.copilot/logs/process-1790801480355-14118.log
+/home/thiagomurta/.copilot/logs/process-1789918524966-12330.log
+/home/thiagomurta/.copilot/logs/process-1790875630446-11314.log
+/home/thiagomurta/.copilot/logs/process-1789597807362-11262.log
+/home/thiagomurta/.copilot/logs/process-1790038636545-42539.log
+/home/thiagomurta/.copilot/logs/process-1790996249601-45256.log
+/home/thiagomurta/.copilot/logs/process-1790107842643-21212.log
+/home/thiagomurta/.copilot/logs/process-1790859583084-40916.log
+/home/thiagomurta/.copilot/logs/process-1789677964946-28027.log
+/home/thiagomurta/.copilot/logs/process-1790909423560-25103.log
+/home/thiagomurta/.copilot/logs/process-1790121909475-28440.log
+/home/thiagomurta/.copilot/logs/process-1790820836186-39601.log
+/home/thiagomurta/.copilot/logs/process-1789694862204-31412.log
+/home/thiagomurta/.copilot/logs/process-1789745275185-15078.log
+/home/thiagomurta/.copilot/logs/process-1789851790411-17817.log
+/home/thiagomurta/.copilot/logs/process-1790107212415-18201.log
+/home/thiagomurta/.copilot/logs/process-1790908025853-20192.log
+/home/thiagomurta/.copilot/logs/process-1790969047775-23145.log
+/home/thiagomurta/.copilot/logs/process-1789597199895-8767.log
+/home/thiagomurta/.copilot/logs/process-1789935124908-41907.log
+/home/thiagomurta/.copilot/logs/process-1790791172417-10787.log
+/home/thiagomurta/code/estudos/logs/system.log
+/home/thiagomurta/code/estudos/logs/application.log
+/home/thiagomurta/go/pkg/mod/golang.org/x/exp@v0.0.0-20230224173230-c95f2b4c22f2/shootout/timing.log
+/home/thiagomurta/go/pkg/mod/golang.org/x/exp@v0.0.0-20231110203233-9a3e6036ecaa/shootout/timing.log
+/home/thiagomurta/go/pkg/mod/github.com/cilium/ebpf@v0.22.0/internal/testdata/invalid-member.log
+/home/thiagomurta/go/pkg/mod/github.com/cilium/ebpf@v0.22.0/internal/testdata/invalid-R0.log
+/home/thiagomurta/go/pkg/mod/github.com/cilium/ebpf@v0.22.0/internal/testdata/errno524.log
+/home/thiagomurta/go/pkg/mod/github.com/cilium/ebpf@v0.22.0/internal/testdata/issue-43.log
+/home/thiagomurta/go/pkg/mod/github.com/cilium/ebpf@v0.22.0/internal/testdata/invalid-ctx-access.log
+/home/thiagomurta/go/pkg/mod/github.com/cilium/ebpf@v0.11.0/internal/testdata/invalid-member.log
+/home/thiagomurta/go/pkg/mod/github.com/cilium/ebpf@v0.11.0/internal/testdata/invalid-R0.log
+/home/thiagomurta/go/pkg/mod/github.com/cilium/ebpf@v0.11.0/internal/testdata/errno524.log
+/home/thiagomurta/go/pkg/mod/github.com/cilium/ebpf@v0.11.0/internal/testdata/issue-43.log
+/home/thiagomurta/go/pkg/mod/github.com/cilium/ebpf@v0.11.0/internal/testdata/invalid-ctx-access.log
+/home/thiagomurta/.config/Code/Partitions/vscode-browser/Local Storage/leveldb/000003.log
+/home/thiagomurta/.config/Code/Partitions/vscode-browser/Session Storage/000003.log
+/home/thiagomurta/.config/Code/Service Worker/Database/000003.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/main.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/agenthost.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/userDataSync.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/views.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/ms-python.vscode-python-envs/Python Environments.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/eamodio.gitlens/GitLens (Git).log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/eamodio.gitlens/GitLens.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/ms-python.debugpy/Python Debugger.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/vscode.microsoft-authentication/Microsoft Authentication.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/vscodevim.vim/Vim.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/vscode.git/Git.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/ms-python.python/Python Language Server.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/ms-python.python/Python.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/output_logging_20261002T162406/4-EditorConfig.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/output_logging_20261002T162406/2-Symbols.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/output_logging_20261002T162406/3-Tailwind CSS IntelliSense.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/output_logging_20261002T162406/5-Code.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/output_logging_20261002T162406/6-GitHub Copilot Log (Code References).log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/output_logging_20261002T162406/1-Git Graph.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/dbaeumer.vscode-eslint/ESLint.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/vscode.github/GitHub.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/vscode.json-language-features/JSON Language Server.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/exthost.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/GitHub.copilot-chat/GitHub Copilot Chat.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/exthost/extHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/mcpServer.eamodio.gitlensGitKraken.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/notebook.rendering.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/mcpServer.ms-python.vscode-pylancepylance mcp server.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/textModelChanges.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/renderer.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/network.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/output_20261002T162406/tasks.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/window1/output_20261002T162406/agentSessionsOutput.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/editSessions.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/sharedprocess.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/remoteTunnelService.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/telemetry.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/mcpGateway.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/network-shared.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/terminal.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/ptyhost.log
+/home/thiagomurta/.config/Code/logs/20261002T162404/agentHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/main.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/agenthost.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/userDataSync.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/views.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/ms-python.vscode-python-envs/Python Environments.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/eamodio.gitlens/GitLens (Git).log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/eamodio.gitlens/GitLens.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/ms-python.debugpy/Python Debugger.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/vscode.microsoft-authentication/Microsoft Authentication.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/vscodevim.vim/Vim.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/vscode.git/Git.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/ms-python.python/Python Language Server.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/ms-python.python/Python.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/output_logging_20260930T231353/4-EditorConfig.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/output_logging_20260930T231353/2-Symbols.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/output_logging_20260930T231353/3-Tailwind CSS IntelliSense.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/output_logging_20260930T231353/5-Code.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/output_logging_20260930T231353/6-GitHub Copilot Log (Code References).log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/output_logging_20260930T231353/1-Git Graph.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/dbaeumer.vscode-eslint/ESLint.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/vscode.github/GitHub.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/vscode.json-language-features/JSON Language Server.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/exthost.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/GitHub.copilot-chat/GitHub Copilot Chat.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/exthost/extHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/mcpServer.eamodio.gitlensGitKraken.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/output_20260930T231353/tasks.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/output_20260930T231353/agentSessionsOutput.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/notebook.rendering.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/mcpServer.ms-python.vscode-pylancepylance mcp server.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/textModelChanges.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/renderer.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/window1/network.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/editSessions.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/sharedprocess.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/remoteTunnelService.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/telemetry.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/mcpGateway.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/network-shared.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/terminal.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/ptyhost.log
+/home/thiagomurta/.config/Code/logs/20260930T231351/agentHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/main.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/agenthost.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/userDataSync.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/views.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/ms-python.vscode-python-envs/Python Environments.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/eamodio.gitlens/GitLens (Git).log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/eamodio.gitlens/GitLens.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/vscode.microsoft-authentication/Microsoft Authentication.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/vscodevim.vim/Vim.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/vscode.git/Git.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/output_logging_20261001T232703/4-EditorConfig.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/output_logging_20261001T232703/2-Symbols.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/output_logging_20261001T232703/3-Tailwind CSS IntelliSense.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/output_logging_20261001T232703/5-Code.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/output_logging_20261001T232703/6-GitHub Copilot Log (Code References).log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/output_logging_20261001T232703/1-Git Graph.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/ms-python.python/Python Language Server.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/ms-python.python/Python.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/dbaeumer.vscode-eslint/ESLint.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/vscode.github/GitHub.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/vscode.json-language-features/JSON Language Server.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/exthost.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/GitHub.copilot-chat/GitHub Copilot Chat.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/exthost/extHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/output_20261001T232703/tasks.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/output_20261001T232703/agentSessionsOutput.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/mcpServer.eamodio.gitlensGitKraken.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/notebook.rendering.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/mcpServer.ms-python.vscode-pylancepylance mcp server.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/textModelChanges.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/renderer.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/window1/network.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/editSessions.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/sharedprocess.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/remoteTunnelService.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/telemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/mcpGateway.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/network-shared.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/terminal.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/ptyhost.log
+/home/thiagomurta/.config/Code/logs/20261001T232702/agentHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/main.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/agenthost.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/userDataSync.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/views.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/ms-python.vscode-python-envs/Python Environments.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/output_logging_20260930T175115/4-EditorConfig.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/output_logging_20260930T175115/2-Symbols.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/output_logging_20260930T175115/3-Tailwind CSS IntelliSense.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/output_logging_20260930T175115/5-Code.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/output_logging_20260930T175115/6-GitHub Copilot Log (Code References).log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/output_logging_20260930T175115/1-Git Graph.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/eamodio.gitlens/GitLens (Git).log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/eamodio.gitlens/GitLens.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/ms-python.debugpy/Python Debugger.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/vscode.microsoft-authentication/Microsoft Authentication.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/vscodevim.vim/Vim.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/vscode.git/Git.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/ms-python.python/Python Language Server.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/ms-python.python/Python.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/dbaeumer.vscode-eslint/ESLint.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/vscode.github/GitHub.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/vscode.json-language-features/JSON Language Server.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/exthost.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/GitHub.copilot-chat/GitHub Copilot Chat.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/exthost/extHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/mcpServer.eamodio.gitlensGitKraken.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/notebook.rendering.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/mcpServer.ms-python.vscode-pylancepylance mcp server.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/output_20260930T175115/tasks.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/output_20260930T175115/agentSessionsOutput.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/textModelChanges.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/renderer.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/window1/network.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/editSessions.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/sharedprocess.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/remoteTunnelService.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/telemetry.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/mcpGateway.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/network-shared.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/terminal.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/ptyhost.log
+/home/thiagomurta/.config/Code/logs/20260930T175112/agentHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/main.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/agenthost.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/userDataSync.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/output_20261001T235021/tasks.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/output_20261001T235021/agentSessionsOutput.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/views.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/ms-python.vscode-python-envs/Python Environments.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/eamodio.gitlens/GitLens (Git).log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/eamodio.gitlens/GitLens.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/vscode.microsoft-authentication/Microsoft Authentication.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/vscodevim.vim/Vim.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/vscode.git/Git.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/output_logging_20261001T235021/4-EditorConfig.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/output_logging_20261001T235021/2-Symbols.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/output_logging_20261001T235021/3-Tailwind CSS IntelliSense.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/output_logging_20261001T235021/5-Code.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/output_logging_20261001T235021/6-GitHub Copilot Log (Code References).log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/output_logging_20261001T235021/1-Git Graph.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/ms-python.python/Python Language Server.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/ms-python.python/Python.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/dbaeumer.vscode-eslint/ESLint.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/vscode.github/GitHub.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/vscode.json-language-features/JSON Language Server.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/exthost.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/GitHub.copilot-chat/GitHub Copilot Chat.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/exthost/extHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/mcpServer.eamodio.gitlensGitKraken.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/notebook.rendering.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/mcpServer.ms-python.vscode-pylancepylance mcp server.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/textModelChanges.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/renderer.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/window1/network.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/editSessions.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/sharedprocess.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/remoteTunnelService.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/telemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/mcpGateway.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/network-shared.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/terminal.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/ptyhost.log
+/home/thiagomurta/.config/Code/logs/20261001T235020/agentHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/main.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/agenthost.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/userDataSync.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/views.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/ms-python.vscode-python-envs/Python Environments.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/eamodio.gitlens/GitLens (Git).log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/eamodio.gitlens/GitLens.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/ms-python.debugpy/Python Debugger.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/vscode.microsoft-authentication/Microsoft Authentication.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/vscodevim.vim/Vim.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/vscode.git/Git.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/ms-python.python/Python Language Server.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/ms-python.python/Python.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/vscode.github/GitHub.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/vscode.json-language-features/JSON Language Server.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/output_logging_20261001T095941/4-EditorConfig.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/output_logging_20261001T095941/2-Symbols.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/output_logging_20261001T095941/3-Tailwind CSS IntelliSense.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/output_logging_20261001T095941/5-Code.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/output_logging_20261001T095941/6-GitHub Copilot Log (Code References).log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/output_logging_20261001T095941/1-Git Graph.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/exthost.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/GitHub.copilot-chat/GitHub Copilot Chat.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/exthost/extHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/mcpServer.eamodio.gitlensGitKraken.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/notebook.rendering.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/output_20261001T095941/tasks.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/output_20261001T095941/agentSessionsOutput.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/mcpServer.ms-python.vscode-pylancepylance mcp server.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/textModelChanges.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/renderer.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/window1/network.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/editSessions.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/sharedprocess.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/remoteTunnelService.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/telemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/mcpGateway.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/network-shared.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/terminal.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/ptyhost.log
+/home/thiagomurta/.config/Code/logs/20261001T095939/agentHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/main.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/agenthost.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/userDataSync.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/output_20261002T200458/tasks.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/output_20261002T200458/agentSessionsOutput.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/views.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/ms-python.vscode-python-envs/Python Environments.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200529/4-EditorConfig.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200529/2-Symbols.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200529/3-Tailwind CSS IntelliSense.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200529/5-Code.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200529/6-GitHub Copilot Log (Code References).log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200529/1-Git Graph.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200458/4-EditorConfig.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200458/2-Symbols.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200458/3-Tailwind CSS IntelliSense.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200458/5-Code.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200458/6-GitHub Copilot Log (Code References).log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/output_logging_20261002T200458/1-Git Graph.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/eamodio.gitlens/GitLens (Git).log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/eamodio.gitlens/GitLens.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/ms-python.debugpy/Python Debugger.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/vscode.microsoft-authentication/Microsoft Authentication.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/vscodevim.vim/Vim.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/vscode.git/Git.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/ms-python.python/Python Language Server.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/ms-python.python/Python.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/dbaeumer.vscode-eslint/ESLint.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/vscode.github/GitHub.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/vscode.json-language-features/JSON Language Server.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/exthost.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/GitHub.copilot-chat/GitHub Copilot Chat.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/exthost/extHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/mcpServer.eamodio.gitlensGitKraken.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/notebook.rendering.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/mcpServer.ms-python.vscode-pylancepylance mcp server.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/textModelChanges.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/renderer.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/window1/network.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/editSessions.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/sharedprocess.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/remoteTunnelService.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/telemetry.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/mcpGateway.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/network-shared.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/terminal.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/ptyhost.log
+/home/thiagomurta/.config/Code/logs/20261002T200456/agentHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/main.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/agenthost.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/userDataSync.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/views.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/ms-python.vscode-python-envs/Python Environments.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/eamodio.gitlens/GitLens (Git).log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/eamodio.gitlens/GitLens.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/ms-python.debugpy/Python Debugger.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/vscode.microsoft-authentication/Microsoft Authentication.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/vscodevim.vim/Vim.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/vscode.git/Git.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/ms-python.python/Python Language Server.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/ms-python.python/Python.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/dbaeumer.vscode-eslint/ESLint.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/vscode.github/GitHub.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/vscode.json-language-features/JSON Language Server.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/exthost.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/GitHub.copilot-chat/GitHub Copilot Chat.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/extHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/output_logging_20261001T142706/4-EditorConfig.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/output_logging_20261001T142706/2-Symbols.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/output_logging_20261001T142706/3-Tailwind CSS IntelliSense.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/output_logging_20261001T142706/5-Code.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/output_logging_20261001T142706/6-GitHub Copilot Log (Code References).log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/exthost/output_logging_20261001T142706/1-Git Graph.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/mcpServer.eamodio.gitlensGitKraken.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/notebook.rendering.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/mcpServer.ms-python.vscode-pylancepylance mcp server.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/output_20261001T142706/tasks.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/output_20261001T142706/agentSessionsOutput.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/textModelChanges.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/renderer.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/window1/network.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/editSessions.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/sharedprocess.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/remoteTunnelService.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/telemetry.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/mcpGateway.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/network-shared.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/terminal.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/ptyhost.log
+/home/thiagomurta/.config/Code/logs/20261001T142703/agentHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/main.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/agenthost.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/userDataSync.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/views.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/ms-python.vscode-python-envs/Python Environments.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/eamodio.gitlens/GitLens (Git).log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/eamodio.gitlens/GitLens.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/ms-python.debugpy/Python Debugger.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/vscode.microsoft-authentication/Microsoft Authentication.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/vscodevim.vim/Vim.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/vscode.git/Git.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/ms-python.python/Python Language Server.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/ms-python.python/Python.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/vscode.github/GitHub.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/vscode.json-language-features/JSON Language Server.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/exthost.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/output_logging_20261002T235728/4-EditorConfig.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/output_logging_20261002T235728/2-Symbols.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/output_logging_20261002T235728/3-Tailwind CSS IntelliSense.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/output_logging_20261002T235728/5-Code.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/output_logging_20261002T235728/6-GitHub Copilot Log (Code References).log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/output_logging_20261002T235728/1-Git Graph.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/GitHub.copilot-chat/GitHub Copilot Chat.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/exthost/extHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/mcpServer.eamodio.gitlensGitKraken.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/notebook.rendering.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/output_20261002T235728/tasks.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/output_20261002T235728/agentSessionsOutput.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/mcpServer.ms-python.vscode-pylancepylance mcp server.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/textModelChanges.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/renderer.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/window1/network.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/editSessions.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/sharedprocess.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/remoteTunnelService.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/telemetry.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/mcpGateway.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/network-shared.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/terminal.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/ptyhost.log
+/home/thiagomurta/.config/Code/logs/20261002T235726/agentHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/main.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/agenthost.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/userDataSync.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/output_20260930T145930/tasks.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/output_20260930T145930/agentSessionsOutput.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/views.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/ms-python.vscode-python-envs/Python Environments.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/eamodio.gitlens/GitLens (Git).log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/eamodio.gitlens/GitLens.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/ms-python.debugpy/Python Debugger.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/vscode.microsoft-authentication/Microsoft Authentication.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/vscodevim.vim/Vim.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/vscode.git/Git.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/output_logging_20260930T145929/4-EditorConfig.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/output_logging_20260930T145929/2-Symbols.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/output_logging_20260930T145929/3-Tailwind CSS IntelliSense.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/output_logging_20260930T145929/5-Code.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/output_logging_20260930T145929/6-GitHub Copilot Log (Code References).log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/output_logging_20260930T145929/1-Git Graph.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/ms-python.python/Python Language Server.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/ms-python.python/Python.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/vscode.github/GitHub.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/vscode.json-language-features/JSON Language Server.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/exthost.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/GitHub.copilot-chat/GitHub Copilot Chat.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/exthost/extHostTelemetry.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/mcpServer.eamodio.gitlensGitKraken.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/notebook.rendering.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/mcpServer.ms-python.vscode-pylancepylance mcp server.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/fileWatcher.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/textModelChanges.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/renderer.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/window1/network.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/editSessions.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/sharedprocess.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/remoteTunnelService.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/telemetry.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/mcpGateway.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/network-shared.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/terminal.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/ptyhost.log
+/home/thiagomurta/.config/Code/logs/20260930T145926/agentHostTelemetry.log
+/home/thiagomurta/.config/Code/Local Storage/leveldb/000003.log
+/home/thiagomurta/.config/Code/Session Storage/000003.log
+/home/thiagomurta/.config/Code/shared_proto_db/000003.log
+/home/thiagomurta/.config/Code/shared_proto_db/metadata/000003.log
+/home/thiagomurta/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/obsidian/obsidian.log
+/home/thiagomurta/.config/obsidian/Local Storage/leveldb/000003.log
+/home/thiagomurta/.config/obsidian/Session Storage/000003.log
+/home/thiagomurta/.config/libreoffice/4/user/GraphicsRenderTests.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.sciencedirect.com_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_br.investing.com_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_bitbucket.org_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_plataforma.bvirtual.com.br_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_authn.edx.org_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.primevideo.com_0.indexeddb.leveldb/000007.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.udemy.com_0.indexeddb.leveldb/000015.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pt.duolingo.com_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_weworkremotely.com_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_medium.com_0.indexeddb.leveldb/000007.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.loginradius.com_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.argennti.com.br_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000179.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.hyr.sh_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.soldiersnutrition.com.br_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.casasbahia.com.br_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.proton.me_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_cloud.google.com_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_devdocs.io_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000014.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_jacob.blog_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_a3dataconsultoria.vagas.solides.com.br_0.indexeddb.leveldb/000007.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000057.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_opusdei.org_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tripleten.com.br_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_form.respondi.app_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.blackskullusa.com.br_0.indexeddb.leveldb/000007.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_home.edx.org_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_profile.edx.org_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_account.edx.org_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_gitkraken.dev_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000054.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_curso.devopspro.com.br_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pt.aliexpress.com_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mastodon.social_0.indexeddb.leveldb/000075.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_gabrielgomes61320.medium.com_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.cypress.io_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.duolingo.com_0.indexeddb.leveldb/000095.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.crescento.com.br_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/002692.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_learning.edx.org_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pt.slideshare.net_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000043.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.edivaldobrito.com.br_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.kaggle.com_0.indexeddb.leveldb/000021.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_blog.diegopinho.com.br_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reclameaqui.com.br_0.indexeddb.leveldb/000008.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lifeat.io_0.indexeddb.leveldb/000006.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_zed.dev_0.indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_training.linuxfoundation.org_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_embed.plnkr.co_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.talkpal.ai_0.indexeddb.leveldb/000008.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.vw.com.br_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_github.com_0.indexeddb.leveldb/000011.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000010.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_roadmap.sh_0.indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/File System/001/t/Paths/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/File System/000/t/Paths/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/File System/Origins/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/WebStorage/399/IndexedDB/indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/WebStorage/359/IndexedDB/indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/WebStorage/306/IndexedDB/indexeddb.leveldb/000004.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/WebStorage/76/IndexedDB/indexeddb.leveldb/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/Rewards.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/Platform Notifications/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/GCM Store/Encryption/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/Extension State/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/AdBlock Custom Resources/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000120.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/Extension Rules/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000003.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/010918.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/Session Storage/002561.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/000015.log
+/home/thiagomurta/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/metadata/000003.log
+/home/thiagomurta/.config/inkscape/extension-errors.log
+/home/thiagomurta/Documentos/sujeito/node_modules/nwsapi/dist/lint.log
+/home/thiagomurta/Documentos/primeiro-app/node_modules/nwsapi/dist/lint.log
+/home/thiagomurta/Documentos/prime/node_modules/nwsapi/dist/lint.log
+/home/thiagomurta/Documentos/0636920601098-master/ch03/never_delete_wrong_file_3/output.log
+/home/thiagomurta/Documentos/aula/node_modules/nwsapi/dist/lint.log
+/home/thiagomurta/tmux/config.log
+/home/thiagomurta/ripgrep/target/x86_64-unknown-linux-musl/release/build/tikv-jemalloc-sys-9027f8bc4a61fa21/out/build/config.log
+/home/thiagomurta/.vscode/extensions/prisma.prisma-31.12.10/.turbo/turbo-build.log
+/home/thiagomurta/.vscode/extensions/golang.go-0.56.1/npm-output.log
+/home/thiagomurta/.vscode/extensions/golang.go-0.56.1/go-package-output.log
+/home/thiagomurta/.cache/nvim/fidget.nvim.log
+/home/thiagomurta/.cache/usb-creator.log
+/home/thiagomurta/.cache/ubuntu-pro/ubuntu-pro.log
+/home/thiagomurta/.cache/simple-scan/simple-scan.log
+/home/thiagomurta/.cache/JetBrains/IdeaIC2025.2/tmp/statistics-uploader/idea_statistics_uploader_events_v1.log
+/home/thiagomurta/.cache/JetBrains/IdeaIC2025.2/tmp/statistics-uploader/idea_statistics_uploader.log
+/home/thiagomurta/.cache/JetBrains/IdeaIC2025.2/log/restarter.log
+/home/thiagomurta/.cache/JetBrains/IdeaIC2025.2/log/idea.log
+/home/thiagomurta/.cache/JetBrains/IdeaIC2025.2/log/build-log/build.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/event-log-data/logs/FUS/05af-4571-9696-35591b63b19c-253.28294.334-release.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/event-log-data/logs/FUS/da88-446c-aa6c-78c55f6913cc-253.28294.334-release.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/event-log-data/logs/FUS/63d5-4f1d-bcba-2ee7d04542c3-253.28294.334-release.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/event-log-data/logs/FUS/fc2a-42be-9d2b-33e01ea43e8a-253.28294.334-release.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/event-log-data/logs/FUS/52d7-4d84-8553-84ee3ec00917-253.28294.334-release.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/event-log-data/logs/FUS/6f5b-40b1-9424-67aa6bb14f32-253.28294.334-release.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/tmp/statistics-uploader/idea_statistics_uploader_events_v1.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/tmp/statistics-uploader/idea_statistics_uploader.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/chrome_debug.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/Default/Extension Scripts/000003.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/Default/Sync Data/LevelDB/000003.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/Default/GCM Store/Encryption/000003.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/Default/Extension State/000003.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/Default/Service Worker/Database/000003.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/Default/Extension Rules/000003.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/Default/Site Characteristics Database/000003.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/Default/Local Storage/leveldb/000003.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/Default/Session Storage/000003.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/Default/shared_proto_db/000003.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/jcef_cache/Default/shared_proto_db/metadata/000003.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/log/idea.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/log/build-log/build.log
+/home/thiagomurta/.cache/JetBrains/IntelliJIdea2025.3/log/jcef_chromium_7088.log
+/home/thiagomurta/.cache/shotwell/shotwell.log
+/home/thiagomurta/.npm/_logs/2026-10-01T13_16_02_853Z-debug-0.log
+/home/thiagomurta/.npm/_logs/2026-10-01T21_04_13_414Z-debug-0.log
+/home/thiagomurta/.npm/_logs/2026-10-01T13_16_02_714Z-debug-0.log
+/home/thiagomurta/.npm/_logs/2026-10-01T13_15_38_942Z-debug-0.log
+/home/thiagomurta/.npm/_logs/2026-10-01T13_15_38_132Z-debug-0.log
+/home/thiagomurta/.npm/_logs/2026-10-01T21_02_00_096Z-debug-0.log
+/home/thiagomurta/.npm/_logs/2026-10-01T21_02_00_716Z-debug-0.log
+/home/thiagomurta/.npm/_logs/2026-10-01T21_04_14_618Z-debug-0.log
+/home/thiagomurta/.npm/_logs/2026-10-01T21_04_14_862Z-debug-0.log
+/home/thiagomurta/.npm/_logs/2026-10-01T13_15_38_622Z-debug-0.log
+/home/thiagomurta/.npm/_logs/2026-10-01T13_15_39_067Z-debug-0.log
+/home/thiagomurta/snap/code/266/.local/share/GitKrakenCLI/gk_cli.log
+/home/thiagomurta/snap/code/266/.local/share/GitKrakenCLI/gk_cli_proxy.log
+/home/thiagomurta/snap/code/267/.local/share/GitKrakenCLI/gk_cli.log
+/home/thiagomurta/snap/code/267/.local/share/GitKrakenCLI/gk_cli_proxy.log
+/home/thiagomurta/snap/obsidian/67/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000026.log
+/home/thiagomurta/snap/obsidian/67/.config/obsidian/obsidian.log
+/home/thiagomurta/snap/obsidian/67/.config/obsidian/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/obsidian/67/.config/obsidian/Session Storage/000003.log
+/home/thiagomurta/snap/obsidian/67/.local/share/gvfs-metadata/home-e05f3bef.log
+/home/thiagomurta/snap/obsidian/68/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000026.log
+/home/thiagomurta/snap/obsidian/68/.config/obsidian/obsidian.log
+/home/thiagomurta/snap/obsidian/68/.config/obsidian/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/obsidian/68/.config/obsidian/Session Storage/000003.log
+/home/thiagomurta/snap/obsidian/68/.local/share/gvfs-metadata/home-e05f3bef.log
+/home/thiagomurta/snap/firmware-updater/258/.local/share/firmware-updater/firmware-updater.log
+/home/thiagomurta/snap/firmware-updater/226/.local/share/firmware-updater/firmware-updater.log
+/home/thiagomurta/snap/insomnia/378/.config/Insomnia/logs/main.log
+/home/thiagomurta/snap/insomnia/378/.config/Insomnia/logs/renderer.old.log
+/home/thiagomurta/snap/insomnia/378/.config/Insomnia/logs/main.old.log
+/home/thiagomurta/snap/insomnia/378/.config/Insomnia/logs/renderer.log
+/home/thiagomurta/snap/insomnia/378/.config/Insomnia/Local Storage/leveldb/000004.log
+/home/thiagomurta/snap/insomnia/378/.config/Insomnia/Session Storage/000003.log
+/home/thiagomurta/snap/insomnia/375/.config/Insomnia/logs/main.log
+/home/thiagomurta/snap/insomnia/375/.config/Insomnia/logs/renderer.old.log
+/home/thiagomurta/snap/insomnia/375/.config/Insomnia/logs/main.old.log
+/home/thiagomurta/snap/insomnia/375/.config/Insomnia/logs/renderer.log
+/home/thiagomurta/snap/insomnia/375/.config/Insomnia/Local Storage/leveldb/000004.log
+/home/thiagomurta/snap/insomnia/375/.config/Insomnia/Session Storage/000003.log
+/home/thiagomurta/snap/mysql-workbench-community/13/.mysql/workbench/log/sql_actions_Local_instance_3306.log
+/home/thiagomurta/snap/mysql-workbench-community/13/.mysql/workbench/log/wb.log
+/home/thiagomurta/snap/mysql-workbench-community/13/.mysql/workbench/log/wb.3.log
+/home/thiagomurta/snap/mysql-workbench-community/13/.mysql/workbench/log/wb.1.log
+/home/thiagomurta/snap/mysql-workbench-community/13/.mysql/workbench/log/wb.2.log
+/home/thiagomurta/snap/firefox/8995/.config/mozilla/firefox/Crash Reports/crash_helper_server.log
+/home/thiagomurta/snap/firefox/common/.mozilla/firefox/Crash Reports/crash_helper_server.log
+/home/thiagomurta/snap/firefox/common/.cache/mozilla/firefox/vidpox7a.default/cache2/index.log
+/home/thiagomurta/snap/firefox/8969/.config/mozilla/firefox/Crash Reports/crash_helper_server.log
+/home/thiagomurta/snap/dbeaver-ce/549/.local/share/DBeaverData/workspace6/.metadata/.log
+/home/thiagomurta/snap/dbeaver-ce/549/.local/share/DBeaverData/workspace6/.metadata/dbeaver-debug-1779146325820.log
+/home/thiagomurta/snap/dbeaver-ce/549/.local/share/DBeaverData/workspace6/.metadata/dbeaver-debug-1788374415269.log
+/home/thiagomurta/snap/dbeaver-ce/549/.local/share/DBeaverData/workspace6/.metadata/dbeaver-debug-1779149428851.log
+/home/thiagomurta/snap/dbeaver-ce/549/.local/share/DBeaverData/workspace6/.metadata/dbeaver-debug.log
+/home/thiagomurta/snap/dbeaver-ce/549/.local/share/DBeaverData/workspace6/.metadata/dbeaver-debug-1780798385678.log
+/home/thiagomurta/snap/dbeaver-ce/557/.local/share/DBeaverData/workspace6/.metadata/.log
+/home/thiagomurta/snap/dbeaver-ce/557/.local/share/DBeaverData/workspace6/.metadata/dbeaver-debug-1779146325820.log
+/home/thiagomurta/snap/dbeaver-ce/557/.local/share/DBeaverData/workspace6/.metadata/dbeaver-debug-1788374415269.log
+/home/thiagomurta/snap/dbeaver-ce/557/.local/share/DBeaverData/workspace6/.metadata/dbeaver-debug-1779149428851.log
+/home/thiagomurta/snap/dbeaver-ce/557/.local/share/DBeaverData/workspace6/.metadata/dbeaver-debug.log
+/home/thiagomurta/snap/dbeaver-ce/557/.local/share/DBeaverData/workspace6/.metadata/dbeaver-debug-1780798385678.log
+/home/thiagomurta/snap/discord/310/.config/discord/module_data/crashlogs/5_3_2026__2_33_45_PM_GMT_3-0-events.log
+/home/thiagomurta/snap/discord/310/.config/discord/logs/renderer_js.log
+/home/thiagomurta/snap/discord/310/.config/discord/logs/discord_krisp.log
+/home/thiagomurta/snap/discord/310/.config/discord/logs/legacyModulesUpdater.log
+/home/thiagomurta/snap/discord/310/.config/discord/logs/renderer_js.old.log
+/home/thiagomurta/snap/discord/310/.config/discord/logs/discord_utils.log
+/home/thiagomurta/snap/discord/310/.config/discord/Local Storage/leveldb/000930.log
+/home/thiagomurta/snap/discord/310/.config/discord/Session Storage/000003.log
+/home/thiagomurta/snap/discord/310/.config/discord/shared_proto_db/000003.log
+/home/thiagomurta/snap/discord/310/.config/discord/shared_proto_db/metadata/000003.log
+/home/thiagomurta/snap/discord/311/.config/discord/module_data/crashlogs/5_3_2026__2_33_45_PM_GMT_3-0-events.log
+/home/thiagomurta/snap/discord/311/.config/discord/logs/renderer_js.log
+/home/thiagomurta/snap/discord/311/.config/discord/logs/discord_krisp.log
+/home/thiagomurta/snap/discord/311/.config/discord/logs/legacyModulesUpdater.log
+/home/thiagomurta/snap/discord/311/.config/discord/logs/renderer_js.old.log
+/home/thiagomurta/snap/discord/311/.config/discord/logs/discord_utils.log
+/home/thiagomurta/snap/discord/311/.config/discord/Local Storage/leveldb/000930.log
+/home/thiagomurta/snap/discord/311/.config/discord/Session Storage/000003.log
+/home/thiagomurta/snap/discord/311/.config/discord/shared_proto_db/000003.log
+/home/thiagomurta/snap/discord/311/.config/discord/shared_proto_db/metadata/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/postman_user_cookies_undefined/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/2b6da18f-a482-41d9-b287-a0f2df03146e/IndexedDB/file__0.indexeddb.leveldb/000006.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/2b6da18f-a482-41d9-b287-a0f2df03146e/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/2b6da18f-a482-41d9-b287-a0f2df03146e/Session Storage/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/bd782b85-efc3-40f2-b823-6a4b6769caf6/IndexedDB/file__0.indexeddb.leveldb/000004.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/bd782b85-efc3-40f2-b823-6a4b6769caf6/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/000009.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/bd782b85-efc3-40f2-b823-6a4b6769caf6/Service Worker/Database/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/bd782b85-efc3-40f2-b823-6a4b6769caf6/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/bd782b85-efc3-40f2-b823-6a4b6769caf6/Session Storage/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/postman_shell/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/postman_shell/Session Storage/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/6905f39b-66e1-4b37-9912-d5d036d65526/IndexedDB/file__0.indexeddb.leveldb/000004.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/6905f39b-66e1-4b37-9912-d5d036d65526/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/000011.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/6905f39b-66e1-4b37-9912-d5d036d65526/Service Worker/Database/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/6905f39b-66e1-4b37-9912-d5d036d65526/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/6905f39b-66e1-4b37-9912-d5d036d65526/Session Storage/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/postman_user_cookies_6905f39b-66e1-4b37-9912-d5d036d65526/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Partitions/postman_user_cookies_bd782b85-efc3-40f2-b823-6a4b6769caf6/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/360/.config/Postman/logs/renderer-auth.log
+/home/thiagomurta/snap/postman/360/.config/Postman/logs/main.log
+/home/thiagomurta/snap/postman/360/.config/Postman/logs/renderer-requester.log
+/home/thiagomurta/snap/postman/360/.config/Postman/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/postman_user_cookies_undefined/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/2b6da18f-a482-41d9-b287-a0f2df03146e/IndexedDB/file__0.indexeddb.leveldb/000006.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/2b6da18f-a482-41d9-b287-a0f2df03146e/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/2b6da18f-a482-41d9-b287-a0f2df03146e/Session Storage/000003.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/bd782b85-efc3-40f2-b823-6a4b6769caf6/IndexedDB/file__0.indexeddb.leveldb/000004.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/bd782b85-efc3-40f2-b823-6a4b6769caf6/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/000009.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/bd782b85-efc3-40f2-b823-6a4b6769caf6/Service Worker/Database/000003.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/bd782b85-efc3-40f2-b823-6a4b6769caf6/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/bd782b85-efc3-40f2-b823-6a4b6769caf6/Session Storage/000003.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/postman_shell/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/postman_shell/Session Storage/000003.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Partitions/postman_user_cookies_bd782b85-efc3-40f2-b823-6a4b6769caf6/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/postman/362/.config/Postman/logs/renderer-auth.log
+/home/thiagomurta/snap/postman/362/.config/Postman/logs/main.log
+/home/thiagomurta/snap/postman/362/.config/Postman/logs/renderer-requester.log
+/home/thiagomurta/snap/postman/362/.config/Postman/Local Storage/leveldb/000003.log
+/home/thiagomurta/snap/snap-store/1419/.local/share/snap-store/snap-store.log
+/home/thiagomurta/snap/snap-store/1427/.local/share/snap-store/snap-store.log
+/home/thiagomurta/snap/thunderbird/common/.mozilla/thunderbird/Crash Reports/crash_helper_server.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/steamrt64/steam-runtime-steamrt/var/slr-non-steam-game-t20260224T113314.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/steamrt64/steam-runtime-steamrt/var/slr-latest.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/steamrt64/pv-runtime/steam-runtime-steamrt/var/slr-non-steam-game-t20261002T101104.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/steamrt64/pv-runtime/steam-runtime-steamrt/var/slr-latest.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/chrome_debug.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/Extension Scripts/000003.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/Sync Data/LevelDB/000003.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/000003.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/WebStorage/1/IndexedDB/indexeddb.leveldb/000003.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/GCM Store/Encryption/000003.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/Extension State/000003.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/Extension Rules/000003.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/Site Characteristics Database/000003.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/Local Storage/leveldb/000013.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/Session Storage/000035.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/shared_proto_db/000003.log
+/home/thiagomurta/snap/steam/common/.local/share/Steam/config/htmlcache/Default/shared_proto_db/metadata/000003.log
+/home/thiagomurta/.local/share/nvim/mason/packages/lua-language-server/libexec/log/service.log
+/home/thiagomurta/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_thiagomurta_.config_nvim.log
+/home/thiagomurta/.local/share/Anki2/crash.log
+/home/thiagomurta/.local/share/gvfs-metadata/root-147d98d9.log
+/home/thiagomurta/.local/share/gvfs-metadata/home-bd0a25c4.log
+/home/thiagomurta/.local/share/gvfs-metadata/uuid-64DC-2D3A-3f1489cc.log
+/home/thiagomurta/.local/share/zed/node/cache/_logs/2026-09-16T02_59_54_594Z-debug-0.log
+/home/thiagomurta/.local/share/zed/node/cache/_logs/2026-09-16T02_59_53_748Z-debug-0.log
+/home/thiagomurta/.local/share/zed/extensions/work/lua/lua-language-server-3.19.1/log/service.log
+/home/thiagomurta/.local/share/zed/extensions/work/lua/lua-language-server-3.19.1/log/file_home_thiagomurta_.config_nvim.log
+/home/thiagomurta/.local/share/zed/logs/telemetry.log
+/home/thiagomurta/.local/share/zed/logs/Zed.log
+/home/thiagomurta/.local/share/opencode/log/2026-08-01T232326.log
+/home/thiagomurta/.local/share/opencode/log/2026-08-01T232832.log
+/home/thiagomurta/.local/share/opencode/log/2026-08-01T232833.log
+/home/thiagomurta/.local/share/opencode/log/2026-05-22T152818.log
+/home/thiagomurta/.local/share/opencode/log/2026-05-22T152817.log
+/home/thiagomurta/.local/share/GitKrakenCLI/gk_cli.log
+/home/thiagomurta/.local/share/GitKrakenCLI/gk_cli_proxy.log
+/home/thiagomurta/.local/state/nvim/neotest.log
+/home/thiagomurta/.local/state/nvim/nvim.log
+/home/thiagomurta/.local/state/nvim/luasnip.log
+/home/thiagomurta/.local/state/nvim/nio.log
+/home/thiagomurta/.local/state/nvim/mason.log
+/home/thiagomurta/.local/state/nvim/lsp.log
+/home/thiagomurta/.local/state/nvim/logs/neotest.log
+/home/thiagomurta/.local/state/nvim/logs/nvim.log
+/home/thiagomurta/.local/state/nvim/logs/luasnip.log
+/home/thiagomurta/.local/state/nvim/logs/nio.log
+/home/thiagomurta/.local/state/nvim/logs/mason.log
+/home/thiagomurta/.local/state/nvim/logs/lsp.log
+/home/thiagomurta/.local/state/nvim/logs/neotest-golang.log
+/home/thiagomurta/.local/state/nvim/neotest-golang.log
+/usr/share/doc/python3.14/pybench.log
+/usr/share/doc/openjdk-25-jre-headless/test-amd64/jtreg-summary-hotspot.log
+/snap/go/11262/src/cmd/go/internal/modindex/testdata/ignore_non_source/baz.log
+/snap/go/11295/src/cmd/go/internal/modindex/testdata/ignore_non_source/baz.log

@@ -1,0 +1,27 @@
+total 20
+-rw-rw-r-- 1 thiagomurta thiagomurta    0 Oct  1 23:22 file.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta 5936 Oct  1 23:19 linux-commands.txt
+-rwxrwxrwx 1 thiagomurta thiagomurta   16 Sep 28 00:41 myscript.sh
+drwxrwxr-x 2 thiagomurta thiagomurta 4096 Sep 24 00:40 notes
+-rw-rw-r-- 1 thiagomurta thiagomurta    0 Sep 28 00:27 test1.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta    0 Sep 28 00:27 test2.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta    0 Sep 28 00:27 test3.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta   17 Sep 22 23:57 testfile.txt
+total 24
+-rw-rw-r-- 1 thiagomurta thiagomurta  538 Oct  1 23:22 file.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta 6045 Oct  1 23:23 linux-commands.txt
+-rwxrwxrwx 1 thiagomurta thiagomurta   16 Sep 28 00:41 myscript.sh
+drwxrwxr-x 2 thiagomurta thiagomurta 4096 Sep 24 00:40 notes
+-rw-rw-r-- 1 thiagomurta thiagomurta    0 Sep 28 00:27 test1.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta    0 Sep 28 00:27 test2.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta    0 Sep 28 00:27 test3.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta   17 Sep 22 23:57 testfile.txt
+total 24
+-rw-rw-r-- 1 thiagomurta thiagomurta 1076 Oct  1 23:24 file.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta 6045 Oct  1 23:23 linux-commands.txt
+-rwxrwxrwx 1 thiagomurta thiagomurta   16 Sep 28 00:41 myscript.sh
+drwxrwxr-x 2 thiagomurta thiagomurta 4096 Sep 24 00:40 notes
+-rw-rw-r-- 1 thiagomurta thiagomurta    0 Sep 28 00:27 test1.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta    0 Sep 28 00:27 test2.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta    0 Sep 28 00:27 test3.txt
+-rw-rw-r-- 1 thiagomurta thiagomurta   17 Sep 22 23:57 testfile.txt

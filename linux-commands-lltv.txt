@@ -1,0 +1,269 @@
+--- NAVEGAÇÃO E ARQUIVOS ---
+ls -> listar diretórios da pasta atual
+ls / -> (/) lista as pastas do início do sistema de arquivos
+ls -l / -> listagem longa, traz mais detalhes da pasta que está
+ls -a -> lista também arquivos ocultos
+
+pwd -> (print working directory) mostra o caminho até o atual diretório
+
+cd <directory/path> -> change directory, acessa o diretório indicado
+
+touch <file> -> cria um arquivo
+
+which <app> -> verifica se o app está instalado na máquina
+
+cp <file1> <newfile> -> copia o file1 para o newfile
+
+diff <file1> <file2> -> verifica se os arquivos são diferentes, se forem iguais não retorna nada
+
+rm <file> -> remove arquivo
+rm -r <directory> -> remove diretório e todo o conteúdo dentro dele (recursivo)
+rm -rf <directory> -> igual ao anterior, mas o -f (force) não pede confirmação e ignora arquivos que não existem (CUIDADO: um erro de digitação pode apagar dados importantes)
+
+mv <file> <directory> -> move o file para o directory
+mv <file> <newfile> -> renomeia o file
+
+alias <atalho>=<comando> -> define um atalho para um comando
+o alias vale apenas para a sessão atual; para ser permanente, coloque no arquivo ~/.bashrc
+
+
+--- PERMISSÕES ---
+ls -l -> mostra uma string de permissões separada em 4 grupos
+
+drwxrwxrwx
+
+d or - -> directory or file
+rwx -> read, write and execute
+
+1 section -> Directory or file
+2 section -> User (owner of file or directory)
+3 section -> Group
+4 section -> Other
+
+chmod -> change mod
+chmod +x myscript.sh -> add execute to myscript.sh
+chmod u+x myscript.sh -> add execute just to user
+chmod g+x myscript.sh -> add execute just to group
+chmod o+x myscript.sh -> add execute just to others
+chmod a+rwx myscript.sh -> add rwx for all
+
+Directory permissions
+r = able to see contents
+w = able to change contents
+x = able to enter into directory
+
+--- PERMISSIONS NUMERICALLY ---
+r=4
+w=2
+x=1
+chmod 400 textfile -> -r-------- colocou apenas o user como leitor, group e other = 0
+(some os valores de cada seção: user, group, other)
+
+
+--- MONITORAMENTO DO SISTEMA ---
+free -> mostra a quantidade de memória disponível de RAM e Swap
+free -m -> mostra a memória em megabytes
+
+diferença de free and available:
+free -> memória livre, não está sendo usada por absolutamente nada
+available -> é a memória que poderia ser liberada e usada caso fosse necessária
+
+df -> disk free
+df -h -> -h significa (human readable)
+df -i -> quantidade de inodes
+
+uptime -> mostra há quanto tempo o sistema está ligado e a carga média (load average)
+o primeiro número mostra a média de carga no último minuto
+o segundo mostra a média nos últimos 5 minutos
+o terceiro mostra a média nos últimos 15 minutos
+consegue assim ver a tendência de desempenho do sistema
+o valor informa, em média, quantas tarefas estão em execução ou aguardando a CPU (no Linux, inclui também tarefas bloqueadas em I/O)
+se o sistema está sobrecarregado depende do número de núcleos: carga 4 é alta em 2 núcleos, mas normal em 8
+
+
+--- PACKAGE MANAGEMENT ---
+apt search <package> -> search for a package
+apt search firefox
+
+sudo apt install <package> -> install package
+sudo apt install vim-nox
+
+sudo apt install <package1> <package2> -> to install more packages
+
+sudo apt remove <package> -> remove package
+
+sudo apt autoremove -> remove dependencies from the deleted package
+
+sudo apt update -> update the list of packages
+sudo apt upgrade -> upgrade packages
+
+sudo apt dist-upgrade -> vai processar tanto os recém-instalados quanto os que precisam ser removidos
+
+sudo reboot -> reinicia a máquina
+
+
+--- MANAGING systemd UNITS ---
+systemd -> gerenciador de processos/serviços em execução em sistemas Linux
+
+systemctl status <unit> -> verifica o status da unidade
+systemctl status apache2
+
+Loaded: loaded (/usr/lib/systemd/system/apache2.service; enabled; preset: enabled)
+primeiro enabled significa que o estado atual é habilitado: o apache2 será iniciado assim que iniciar a máquina
+preset: enabled mostra que a configuração padrão (preset) da distribuição manda habilitar esse serviço
+Active: active (running)
+mostra que está executando corretamente
+
+sudo systemctl disable <unit> -> tira o início automático da unit
+sudo systemctl disable apache2
+
+sudo systemctl enable <unit> -> coloca o início automático da unit
+sudo systemctl enable apache2
+
+sudo systemctl stop <unit> -> para a execução do unit
+sudo systemctl stop apache2
+
+sudo systemctl start <unit> -> inicia execução do unit
+sudo systemctl start apache2
+
+sudo systemctl restart <unit> -> reinicia a unit
+sudo systemctl restart apache2
+
+
+--- LOGS ---
+head <log_file> -> mostra as 10 primeiras linhas do log_file
+tail <log_file> -> mostra as 10 últimas linhas do log_file
+
+tail -n 50 <log_file> -> mostra as 50 últimas linhas, o valor pode ser alterado
+tail -f <log_file> -> se o arquivo for alterado, é possível ver em tempo real
+
+(journalctl faz parte do systemd assim como o systemctl)
+journalctl -u <unit> -> retorna apenas as mensagens relacionadas ao serviço/unidade especificado
+journalctl -u ssh -> -u para usar o nome de uma unidade
+journalctl -fu ssh -> -fu para esperar alterações e usar o nome da unidade
+
+
+--- MANAGING USERS ---
+sudo adduser <user> -> para criar o usuário
+sudo adduser batman
+
+su - <user> -> abre um novo shell de login como o usuário (pede a senha dele); não "sai" do usuário atual, fica por cima dele
+logout -> fecha esse shell e volta para o usuário anterior
+
+sudo su - <user> -> entra no usuário sem pedir a senha dele (o sudo pede a SUA senha, porque eu sou root via sudo)
+sudo su - -> abre um shell como root, os próximos comandos são executados como root
+exit -> para sair do shell atual/modo root (poderia usar também logout | Ctrl+d)
+
+passwd -> altera a senha do usuário ATUAL
+sudo passwd <user> -> altera a senha de outro usuário sem precisar logar no user
+passwd <user> -> estando como root, basta isso para mudar a senha
+
+sudo userdel -r <user> -> remover o user (userdel para remover o usuário e -r para remover o diretório home do usuário)
+
+sudo groupadd <group> -> criar grupo
+sudo groupadd heroes
+
+sudo usermod -aG <group> <user> -> adiciona user ao grupo
+sudo gpasswd -d <user> <group> -> remove user do grupo
+sudo groupdel <group> -> remove grupo
+
+history -> histórico de comandos
+<Ctrl+r> -> faz um autocomplete de comandos que já foram usados
+
+
+--- OUTPUT REDIRECTION ---
+ls -l > file.txt -> redireciona a saída para o arquivo file.txt, sobrescrevendo file.txt
+ls -l >> file.txt -> redireciona a saída para o arquivo file.txt, sem sobrescrever
+ls -l | grep file -> redireciona a saída de ls para onde o grep vai pesquisar
+cat file.txt | sort | uniq -> pega as linhas | ordena | retira duplicatas
+
+sort -> ordena as linhas do arquivo em ordem alfabética
+uniq -> remove apenas linhas duplicadas ADJACENTES (por isso é usado depois do sort)
+grep -v <string> -> mostra as linhas que não incluem uma string
+wc -> (word count) linha, palavra e byte (ou caracteres)
+
+0 - stdin -> standard input
+1 - stdout -> standard output
+2 - stderr -> standard error
+
+find / -name "*.log" 2> /dev/null -> procura na raiz por nome todos os arquivos que tem .log e envia os erros para /dev/null
+find / -name "*.log" 2> errors.txt -> coloca todos os erros no arquivo errors.txt
+find / -name "*.log" 1> success.txt -> coloca todos os resultados (sucessos) no arquivo success.txt
+
+
+--- FIND ---
+find -name log -> procura arquivos E pastas com o nome log
+find -type d -name log -> procura especificamente por pastas com nome log
+find -type f -name log -> procura especificamente por arquivos com nome log
+find /var -type f -name "*log" -> procura especificamente por arquivos com nome terminando em log na pasta var
+find /var -type f -name "*log*" -> procura especificamente por arquivos com log em qualquer parte do nome na pasta var
+find /var -type f -name "*log*" 2> /dev/null
+find /var/log -type f -name "*.log" -mtime -7 -> busca arquivos .log que sofreram alterações nos últimos 7 dias (mtime -> modify time)
+find /var/log -type f -name "*.log" -mtime +30 -exec rm {} \; -> busca os arquivos .log modificados há mais de 30 dias e executa (exec) a remoção (rm) nos arquivos que encontrar
+(-mtime -30 = modificados nos últimos 30 dias | -mtime +30 = modificados há mais de 30 dias)
+(dica: teste antes com -exec ls {} \; antes de usar rm)
+
+
+--- REMOTE MANAGEMENT WITH OPENSSH ---
+sudo ss -tulpn -> verificar se o servidor SSH está escutando (o antigo netstat -tulpn faz o mesmo, mas é obsoleto e pode não estar instalado)
+ip a -> ver o ip da máquina que quer se conectar
+
+ssh <username>@<ip_server> -> conecta como username ao ip_server
+ssh root@<ip_server> -> conecta como root ao ip_server
+exit -> para sair do servidor (Ctrl+d também funciona)
+
+
+--- SCP (Secure Copy Protocol) ---
+scp <file_to_transfer> <username>@<ip_server>:/home/<username>/ -> envia o arquivo para a outra máquina, na pasta home/username
+scp <file_to_transfer> <ip_server>: -> se omitir o usuário, ele usa o nome do seu usuário LOCAL; sem caminho depois do ":", o destino é a home do usuário remoto
+scp -r <folder>/ <ip_server>: -> -r significa recursivo, para passar o diretório inteiro
+scp <ip_server>:<file_to_transfer> <path_to_receive> -> funciona também para receber, mesmo processo mas ao contrário
+
+
+--- RSYNC ---
+rsync -r <folder> <username>@<ip_server>:/home/<username> -> envia o diretório inteiro, o -r é pra enviar recursivamente os arquivos no diretório
+rsync -rv <folder> <username>@<ip_server>:/home/<username> -> mesmo comando, mas é mais verboso por conta do -v, acaba retornando que foi copiado
+rsync -rv <folder> <ip_server>: -> mesma simplificação do scp
+rsync -avz <folder> <ip_server>: ->
+-a significa modo archive: uma série de opções que já inclui a recursividade e mantém as permissões e os registros de data e hora
+-v é o modo verboso, permite ver com mais detalhes a transferência
+-z é para comprimir os arquivos durante a transferência, ajuda em conexões lentas
+esse comando consegue enviar novamente somente os arquivos faltantes, caso tenha apagado ou alterado na outra instância que recebe os arquivos
+
+rsync -avz --remove-source-files <folder> <ip_server>: -> envia os arquivos para a outra instância e apaga os ARQUIVOS na máquina que está usando (as pastas vazias continuam lá)
+rsync -avz --remove-source-files --dry-run <folder> <ip_server>: -> apenas um teste, não executa nada, mas fornece uma saída do que aconteceria
+
+
+--- DESABILITANDO LOGIN DO ROOT SSH ---
+sudo nvim /etc/ssh/sshd_config
+PermitRootLogin no -> método mais seguro, estava como prohibit-password
+PasswordAuthentication no -> a conexão é negada, não chega a pedir a senha, estava como yes
+(ATENÇÃO: PasswordAuthentication no desativa a senha para TODOS os usuários, não só o root; só será possível entrar com chave SSH. Confirme que sua chave funciona antes, ou você ficará trancado para fora)
+(depois de editar, reinicie o serviço: sudo systemctl restart ssh)
+
+
+--- VARIABLES ---
+HELLOMSG="Hello World" -> define o valor da variável
+echo $HELLOMSG -> chama a variável
+MY_NAME="Thiago"
+echo "My name is $MY_NAME"
+
+env -> para ver as variáveis da sessão
+export myvar="linux" -> exporta a variável: ela passa a aparecer no env e a ser herdada por processos filhos
+(pode ser usado depois de definir a variável: myvar="linux" e depois export myvar)
+
+
+--- OBSERVAÇÕES IMPORTANTES ---
+~ -> indica o diretório inicial, o mesmo que cd /home/nome_usuario
+inodes -> se acabarem os inodes, não é possível criar novos arquivos mesmo com espaço livre em disco, o que pode causar falhas em serviços
+comandos que se iniciam com espaço vazio não vão para o history, se o HISTCONTROL tiver ignorespace ou ignoreboth (padrão no Ubuntu/Debian, mas não em todas as distros)
+
+
+--- PASTAS IMPORTANTES ---
+/home -> diretório principal, tem os diretórios principais do usuário
+
+
+--- ARQUIVOS IMPORTANTES ---
+cat /etc/passwd -> lista os usuários: nome, UID, GID (grupo principal), home e shell (não contém o hash da senha)
+sudo cat /etc/shadow -> possui o hash das senhas (requer root)
+cat /etc/group -> lista de grupos
