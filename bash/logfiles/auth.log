@@ -1,0 +1,1024 @@
+2026-10-18T00:41:58.431412-03:00 thiagomurta systemd-logind[1499]: The system will power off now!
+2026-10-18T00:41:58.456647-03:00 thiagomurta dbus-daemon[1468]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2476 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5690 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-18T00:41:58.510785-03:00 thiagomurta systemd-logind[1499]: System is powering down.
+2026-10-18T00:41:58.540728-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-18T00:41:58.580122-03:00 thiagomurta dbus-daemon[1468]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.6" (uid=0 pid=1467 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.87" (uid=1000 pid=5000 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-18T00:41:58.601049-03:00 thiagomurta systemd-logind[1499]: Session 2 logged out. Waiting for processes to exit.
+2026-10-18T12:33:46.734633-03:00 thiagomurta systemd-logind[1504]: Watching system buttons on /dev/input/event5 (SINO WEALTH Gaming KB )
+2026-10-18T12:33:46.734641-03:00 thiagomurta systemd-logind[1504]: Watching system buttons on /dev/input/event3 (SINO WEALTH Gaming KB  System Control)
+2026-10-18T12:33:46.734649-03:00 thiagomurta systemd-logind[1504]: Watching system buttons on /dev/input/event4 (SINO WEALTH Gaming KB  Consumer Control)
+2026-10-18T12:33:46.734657-03:00 thiagomurta systemd-logind[1504]: Watching system buttons on /dev/input/event6 (SINO WEALTH Gaming KB  Keyboard)
+2026-10-18T12:33:46.734666-03:00 thiagomurta systemd-logind[1504]: Watching system buttons on /dev/input/event10 (USB GAMING MOUSE  Keyboard)
+2026-10-18T12:33:46.734677-03:00 thiagomurta systemd-logind[1504]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-18T12:33:46.734685-03:00 thiagomurta systemd-logind[1504]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-18T12:33:46.734693-03:00 thiagomurta systemd-logind[1504]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-18T12:33:46.734701-03:00 thiagomurta systemd-logind[1504]: New seat seat0.
+2026-10-18T12:33:47.512358-03:00 thiagomurta sshd[2098]: Server listening on 0.0.0.0 port 22.
+2026-10-18T12:33:47.512544-03:00 thiagomurta sshd[2098]: Server listening on :: port 22.
+2026-10-18T12:33:47.764612-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-18T12:33:47.801610-03:00 thiagomurta systemd-logind[1504]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-18T12:33:47.859498-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-18T12:33:47.860503-03:00 thiagomurta systemd-logind[1504]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-18T12:34:06.585963-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-18T12:34:06.586161-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-18T12:34:06.610328-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-18T12:34:06.625742-03:00 thiagomurta systemd-logind[1504]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-18T12:34:06.714994-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-18T12:34:06.716560-03:00 thiagomurta systemd-logind[1504]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-18T12:34:07.355445-03:00 thiagomurta gnome-keyring-daemon[4979]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-18T12:34:07.365569-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-18T12:34:10.923008-03:00 thiagomurta gnome-keyring-daemon[4979]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-18T12:34:12.471441-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2491 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5694 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-18T12:34:12.514885-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2491 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5694 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-18T12:34:12.529091-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2491 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5694 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-18T12:34:12.533549-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2491 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5694 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-18T12:34:12.538630-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2491 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5694 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-18T12:34:13.102088-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-18T12:34:13.109902-03:00 thiagomurta systemd-logind[1504]: Session c1 logged out. Waiting for processes to exit.
+2026-10-18T12:34:13.112099-03:00 thiagomurta systemd-logind[1504]: Removed session c1.
+2026-10-18T12:34:14.490155-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-18T12:34:14.495957-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-18T12:34:23.174296-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-18T12:34:23.174754-03:00 thiagomurta systemd-logind[1504]: Removed session 1.
+2026-10-18T12:35:14.977783-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-18T12:35:14.981632-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-18T12:44:06.784399-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-18T13:17:01.612512-03:00 thiagomurta CRON[14449]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-18T13:17:01.617225-03:00 thiagomurta CRON[14449]: pam_unix(cron:session): session closed for user root
+2026-10-18T13:30:01.637123-03:00 thiagomurta CRON[16014]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-18T13:30:01.642295-03:00 thiagomurta CRON[16014]: pam_unix(cron:session): session closed for user root
+2026-10-18T13:34:13.393662-03:00 thiagomurta gnome-keyring-daemon[4979]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-18T13:44:25.355921-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-18T13:44:25.356198-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-18T13:44:29.275568-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-18T14:17:01.666560-03:00 thiagomurta CRON[25156]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-18T14:17:01.670647-03:00 thiagomurta CRON[25156]: pam_unix(cron:session): session closed for user root
+2026-10-18T14:30:01.686713-03:00 thiagomurta CRON[26502]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-18T14:30:01.689881-03:00 thiagomurta CRON[26502]: pam_unix(cron:session): session closed for user root
+2026-10-18T14:34:13.869371-03:00 thiagomurta gnome-keyring-daemon[4979]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-18T14:34:53.109977-03:00 thiagomurta systemd-logind[1504]: The system will suspend now!
+2026-10-18T15:54:49.224803-03:00 thiagomurta systemd-logind[1504]: Operation 'suspend' finished.
+2026-10-18T15:54:53.518784-03:00 thiagomurta unix_chkpwd[27232]: password check failed for user (thiagomurta)
+2026-10-18T15:54:53.519323-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=thiagomurta uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=thiagomurta
+2026-10-18T15:54:56.709057-03:00 thiagomurta CRON[27325]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-18T15:54:56.712362-03:00 thiagomurta CRON[27325]: pam_unix(cron:session): session closed for user root
+2026-10-18T15:54:57.965772-03:00 thiagomurta gnome-keyring-daemon[4979]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-18T15:55:00.539412-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-18T16:17:01.731726-03:00 thiagomurta CRON[31853]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-18T16:17:01.737835-03:00 thiagomurta CRON[31853]: pam_unix(cron:session): session closed for user root
+2026-10-18T16:30:01.501031-03:00 thiagomurta CRON[33132]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-18T16:30:01.503829-03:00 thiagomurta CRON[33132]: pam_unix(cron:session): session closed for user root
+2026-10-18T16:54:09.558766-03:00 thiagomurta gnome-keyring-daemon[4979]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-18T17:06:58.832792-03:00 thiagomurta polkitd[1480]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-10-18T17:17:01.524609-03:00 thiagomurta CRON[41071]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-18T17:17:01.527531-03:00 thiagomurta CRON[41071]: pam_unix(cron:session): session closed for user root
+2026-10-18T17:18:37.434079-03:00 thiagomurta gnome-keyring-daemon[4979]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-18T17:30:01.543277-03:00 thiagomurta CRON[45122]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-18T17:30:01.545290-03:00 thiagomurta CRON[45122]: pam_unix(cron:session): session closed for user root
+2026-10-18T17:54:09.097504-03:00 thiagomurta gnome-keyring-daemon[4979]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-18T18:16:58.256918-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-18T18:16:58.257088-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-18T18:17:00.464725-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-18T18:17:01.567086-03:00 thiagomurta CRON[48911]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-18T18:17:01.573555-03:00 thiagomurta CRON[48911]: pam_unix(cron:session): session closed for user root
+2026-10-18T18:30:01.584602-03:00 thiagomurta CRON[51155]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-18T18:30:01.587556-03:00 thiagomurta CRON[51155]: pam_unix(cron:session): session closed for user root
+2026-10-18T18:40:13.039713-03:00 thiagomurta systemd-logind[1504]: The system will power off now!
+2026-10-18T18:40:13.074618-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2491 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5694 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-18T18:40:13.096720-03:00 thiagomurta systemd-logind[1504]: System is powering down.
+2026-10-18T18:40:13.132263-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-18T18:40:13.168180-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.6" (uid=0 pid=1472 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.86" (uid=1000 pid=4995 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-18T18:40:13.237185-03:00 thiagomurta systemd-logind[1504]: Session 2 logged out. Waiting for processes to exit.
+2026-10-19T10:16:23.747840-03:00 thiagomurta systemd-logind[1508]: Watching system buttons on /dev/input/event4 (SINO WEALTH Gaming KB )
+2026-10-19T10:16:23.747845-03:00 thiagomurta systemd-logind[1508]: Watching system buttons on /dev/input/event5 (SINO WEALTH Gaming KB  System Control)
+2026-10-19T10:16:23.747851-03:00 thiagomurta systemd-logind[1508]: Watching system buttons on /dev/input/event7 (SINO WEALTH Gaming KB  Consumer Control)
+2026-10-19T10:16:23.747856-03:00 thiagomurta systemd-logind[1508]: Watching system buttons on /dev/input/event9 (SINO WEALTH Gaming KB  Keyboard)
+2026-10-19T10:16:23.747861-03:00 thiagomurta systemd-logind[1508]: Watching system buttons on /dev/input/event11 (USB GAMING MOUSE  Keyboard)
+2026-10-19T10:16:23.747866-03:00 thiagomurta systemd-logind[1508]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-19T10:16:23.747871-03:00 thiagomurta systemd-logind[1508]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-19T10:16:23.747880-03:00 thiagomurta systemd-logind[1508]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-19T10:16:23.747901-03:00 thiagomurta systemd-logind[1508]: New seat seat0.
+2026-10-19T10:16:24.565298-03:00 thiagomurta sshd[2108]: Server listening on 0.0.0.0 port 22.
+2026-10-19T10:16:24.565499-03:00 thiagomurta sshd[2108]: Server listening on :: port 22.
+2026-10-19T10:16:24.813351-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-19T10:16:24.828230-03:00 thiagomurta systemd-logind[1508]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-19T10:16:24.923283-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-19T10:16:24.924250-03:00 thiagomurta systemd-logind[1508]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-19T10:17:01.136488-03:00 thiagomurta CRON[4745]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-19T10:17:01.140819-03:00 thiagomurta CRON[4745]: pam_unix(cron:session): session closed for user root
+2026-10-19T10:17:39.171285-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-19T10:17:39.171636-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-19T10:17:39.219187-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-19T10:17:39.235658-03:00 thiagomurta systemd-logind[1508]: New session '3' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-19T10:17:39.315861-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-19T10:17:39.317554-03:00 thiagomurta systemd-logind[1508]: New session '4' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-19T10:17:39.935892-03:00 thiagomurta gnome-keyring-daemon[5028]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-19T10:17:39.945476-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-19T10:17:43.310893-03:00 thiagomurta gnome-keyring-daemon[5028]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-19T10:17:45.088435-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.31" (uid=0 pid=2497 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5894 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T10:17:45.135017-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.31" (uid=0 pid=2497 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5894 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T10:17:45.148478-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.31" (uid=0 pid=2497 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5894 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T10:17:45.153661-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.31" (uid=0 pid=2497 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5894 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T10:17:45.159270-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.31" (uid=0 pid=2497 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5894 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T10:17:46.579076-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-19T10:17:46.586401-03:00 thiagomurta systemd-logind[1508]: Session c1 logged out. Waiting for processes to exit.
+2026-10-19T10:17:46.588715-03:00 thiagomurta systemd-logind[1508]: Removed session c1.
+2026-10-19T10:17:47.005460-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-19T10:17:47.012577-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-19T10:17:56.785572-03:00 thiagomurta systemd-logind[1508]: Removed session 1.
+2026-10-19T10:17:56.785960-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-19T10:18:47.600637-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-19T10:18:47.605038-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-19T10:30:01.156652-03:00 thiagomurta CRON[12385]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-19T10:30:01.185511-03:00 thiagomurta CRON[12385]: pam_unix(cron:session): session closed for user root
+2026-10-19T10:36:21.400548-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-19T10:36:21.400799-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-19T10:36:24.906997-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-19T10:49:18.949694-03:00 thiagomurta systemd-logind[1508]: The system will power off now!
+2026-10-19T10:49:18.986501-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.31" (uid=0 pid=2497 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5894 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T10:49:19.021408-03:00 thiagomurta systemd-logind[1508]: System is powering down.
+2026-10-19T10:49:19.055389-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-19T10:49:19.104787-03:00 thiagomurta dbus-daemon[1473]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.6" (uid=0 pid=1472 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.84" (uid=1000 pid=5046 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-19T10:49:19.215473-03:00 thiagomurta systemd-logind[1508]: Session 3 logged out. Waiting for processes to exit.
+2026-10-19T15:18:38.485439-03:00 thiagomurta systemd-logind[1492]: Watching system buttons on /dev/input/event5 (SINO WEALTH Gaming KB )
+2026-10-19T15:18:38.485444-03:00 thiagomurta systemd-logind[1492]: Watching system buttons on /dev/input/event6 (SINO WEALTH Gaming KB  System Control)
+2026-10-19T15:18:38.485450-03:00 thiagomurta systemd-logind[1492]: Watching system buttons on /dev/input/event3 (SINO WEALTH Gaming KB  Consumer Control)
+2026-10-19T15:18:38.485455-03:00 thiagomurta systemd-logind[1492]: Watching system buttons on /dev/input/event4 (SINO WEALTH Gaming KB  Keyboard)
+2026-10-19T15:18:38.485465-03:00 thiagomurta systemd-logind[1492]: Watching system buttons on /dev/input/event10 (USB GAMING MOUSE  Keyboard)
+2026-10-19T15:18:38.485476-03:00 thiagomurta systemd-logind[1492]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-19T15:18:38.485481-03:00 thiagomurta systemd-logind[1492]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-19T15:18:38.485486-03:00 thiagomurta systemd-logind[1492]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-19T15:18:38.485491-03:00 thiagomurta systemd-logind[1492]: New seat seat0.
+2026-10-19T15:18:39.235631-03:00 thiagomurta sshd[2090]: Server listening on 0.0.0.0 port 22.
+2026-10-19T15:18:39.235792-03:00 thiagomurta sshd[2090]: Server listening on :: port 22.
+2026-10-19T15:18:39.516601-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-19T15:18:39.554245-03:00 thiagomurta systemd-logind[1492]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-19T15:18:39.613750-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-19T15:18:39.614750-03:00 thiagomurta systemd-logind[1492]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-19T15:18:54.519149-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-19T15:18:54.519371-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-19T15:18:54.541416-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-19T15:18:54.557228-03:00 thiagomurta systemd-logind[1492]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-19T15:18:54.636653-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-19T15:18:54.638019-03:00 thiagomurta systemd-logind[1492]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-19T15:18:55.282204-03:00 thiagomurta gnome-keyring-daemon[4853]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-19T15:18:55.294737-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-19T15:18:58.488228-03:00 thiagomurta gnome-keyring-daemon[4853]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-19T15:19:00.462322-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2479 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5599 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T15:19:00.506093-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2479 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5599 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T15:19:00.521060-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2479 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5599 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T15:19:00.526170-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2479 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5599 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T15:19:00.531844-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2479 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5599 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T15:19:01.132916-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-19T15:19:01.142180-03:00 thiagomurta systemd-logind[1492]: Session c1 logged out. Waiting for processes to exit.
+2026-10-19T15:19:01.144722-03:00 thiagomurta systemd-logind[1492]: Removed session c1.
+2026-10-19T15:19:02.308411-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-19T15:19:02.313484-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-19T15:19:11.427880-03:00 thiagomurta systemd-logind[1492]: Removed session 1.
+2026-10-19T15:19:11.428229-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-19T15:30:01.346155-03:00 thiagomurta CRON[9143]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-19T15:30:01.349444-03:00 thiagomurta CRON[9143]: pam_unix(cron:session): session closed for user root
+2026-10-19T15:30:52.223795-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-19T15:30:52.224137-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-19T15:31:01.436393-03:00 thiagomurta pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-19T15:31:01.437592-03:00 thiagomurta pkexec[10271]: thiagomurta: Executing command [USER=root] [TTY=unknown] [CWD=/home/thiagomurta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-10-19T15:31:02.651144-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-19T15:32:31.443804-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-19T15:32:31.444770-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-10-19T15:32:38.506834-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-19T15:36:32.186721-03:00 thiagomurta systemd-logind[1492]: The system will power off now!
+2026-10-19T15:36:32.223562-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2479 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5599 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T15:36:32.256301-03:00 thiagomurta systemd-logind[1492]: System is powering down.
+2026-10-19T15:36:32.361024-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-19T15:36:32.409552-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.5" (uid=0 pid=1460 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.86" (uid=1000 pid=4865 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-19T15:36:32.458180-03:00 thiagomurta systemd-logind[1492]: Session 2 logged out. Waiting for processes to exit.
+2026-10-19T20:10:51.478441-03:00 thiagomurta systemd-logind[1506]: Watching system buttons on /dev/input/event3 (SINO WEALTH Gaming KB )
+2026-10-19T20:10:51.478451-03:00 thiagomurta systemd-logind[1506]: Watching system buttons on /dev/input/event8 (SINO WEALTH Gaming KB  Keyboard)
+2026-10-19T20:10:51.478457-03:00 thiagomurta systemd-logind[1506]: Watching system buttons on /dev/input/event6 (SINO WEALTH Gaming KB  System Control)
+2026-10-19T20:10:51.478462-03:00 thiagomurta systemd-logind[1506]: Watching system buttons on /dev/input/event7 (SINO WEALTH Gaming KB  Consumer Control)
+2026-10-19T20:10:51.478467-03:00 thiagomurta systemd-logind[1506]: Watching system buttons on /dev/input/event10 (USB GAMING MOUSE  Keyboard)
+2026-10-19T20:10:51.478473-03:00 thiagomurta systemd-logind[1506]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-19T20:10:51.478480-03:00 thiagomurta systemd-logind[1506]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-19T20:10:51.478490-03:00 thiagomurta systemd-logind[1506]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-19T20:10:51.478495-03:00 thiagomurta systemd-logind[1506]: New seat seat0.
+2026-10-19T20:10:52.195358-03:00 thiagomurta sshd[2093]: Server listening on 0.0.0.0 port 22.
+2026-10-19T20:10:52.195510-03:00 thiagomurta sshd[2093]: Server listening on :: port 22.
+2026-10-19T20:10:52.454219-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-19T20:10:52.487788-03:00 thiagomurta systemd-logind[1506]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-19T20:10:52.554115-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-19T20:10:52.554975-03:00 thiagomurta systemd-logind[1506]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-19T20:14:30.958549-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-19T20:14:30.959408-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-19T20:14:31.005316-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-19T20:14:31.021208-03:00 thiagomurta systemd-logind[1506]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-19T20:14:31.107066-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-19T20:14:31.108886-03:00 thiagomurta systemd-logind[1506]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-19T20:14:31.761291-03:00 thiagomurta gnome-keyring-daemon[5005]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-19T20:14:31.771319-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-19T20:14:35.327323-03:00 thiagomurta gnome-keyring-daemon[5005]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-19T20:14:36.898431-03:00 thiagomurta dbus-daemon[1475]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2482 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5717 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T20:14:36.940090-03:00 thiagomurta dbus-daemon[1475]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2482 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5717 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T20:14:36.953478-03:00 thiagomurta dbus-daemon[1475]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2482 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5717 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T20:14:36.958274-03:00 thiagomurta dbus-daemon[1475]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2482 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5717 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T20:14:36.962745-03:00 thiagomurta dbus-daemon[1475]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2482 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5717 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-19T20:14:37.053731-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-19T20:14:37.058494-03:00 thiagomurta systemd-logind[1506]: Session c1 logged out. Waiting for processes to exit.
+2026-10-19T20:14:37.060949-03:00 thiagomurta systemd-logind[1506]: Removed session c1.
+2026-10-19T20:14:38.805825-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-19T20:14:38.813204-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-19T20:14:47.281040-03:00 thiagomurta systemd-logind[1506]: Removed session 1.
+2026-10-19T20:14:47.281332-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-19T20:17:01.331627-03:00 thiagomurta CRON[7565]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-19T20:17:01.336060-03:00 thiagomurta CRON[7565]: pam_unix(cron:session): session closed for user root
+2026-10-19T20:30:01.352693-03:00 thiagomurta CRON[8424]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-19T20:30:01.381878-03:00 thiagomurta CRON[8424]: pam_unix(cron:session): session closed for user root
+2026-10-19T20:37:33.909130-03:00 thiagomurta systemd-logind[1506]: The system will suspend now!
+2026-10-19T21:09:22.412327-03:00 thiagomurta systemd-logind[1506]: Operation 'suspend' finished.
+2026-10-19T21:09:27.908670-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-19T21:09:30.232860-03:00 thiagomurta gnome-keyring-daemon[5005]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-19T21:17:01.544968-03:00 thiagomurta CRON[9972]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-19T21:17:01.553781-03:00 thiagomurta CRON[9972]: pam_unix(cron:session): session closed for user root
+2026-10-19T21:19:53.145808-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-19T21:19:53.147293-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-19T21:19:56.668152-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-19T21:20:51.556791-03:00 thiagomurta systemd-logind[1506]: Watching system buttons on /dev/input/event15 (QCY AilyPods (AVRCP))
+2026-10-19T21:28:21.089548-03:00 thiagomurta gnome-keyring-daemon[5005]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-19T21:30:01.140292-03:00 thiagomurta CRON[16057]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-19T21:30:01.145362-03:00 thiagomurta CRON[16057]: pam_unix(cron:session): session closed for user root
+2026-10-19T22:16:27.435732-03:00 thiagomurta gnome-keyring-daemon[5005]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-19T22:17:01.193983-03:00 thiagomurta CRON[26996]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-19T22:17:01.198124-03:00 thiagomurta CRON[26996]: pam_unix(cron:session): session closed for user root
+2026-10-19T22:30:01.208724-03:00 thiagomurta CRON[29361]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-19T22:30:01.214020-03:00 thiagomurta CRON[29361]: pam_unix(cron:session): session closed for user root
+2026-10-19T23:16:27.573388-03:00 thiagomurta gnome-keyring-daemon[5005]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-19T23:17:01.228818-03:00 thiagomurta CRON[37681]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-19T23:17:01.233985-03:00 thiagomurta CRON[37681]: pam_unix(cron:session): session closed for user root
+2026-10-19T23:30:01.244291-03:00 thiagomurta CRON[39439]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-19T23:30:01.246287-03:00 thiagomurta CRON[39439]: pam_unix(cron:session): session closed for user root
+2026-10-19T23:33:00.173189-03:00 thiagomurta dbus-daemon[1475]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.84" (uid=1000 pid=5019 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1474 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2026-10-20T00:07:37.835061-03:00 thiagomurta gnome-keyring-daemon[5005]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-20T00:10:43.873792-03:00 thiagomurta gnome-keyring-daemon[5005]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-20T00:11:58.221057-03:00 thiagomurta gnome-keyring-daemon[5005]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-20T00:16:27.000776-03:00 thiagomurta gnome-keyring-daemon[5005]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-20T00:17:01.269929-03:00 thiagomurta CRON[52735]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T00:17:01.273080-03:00 thiagomurta CRON[52735]: pam_unix(cron:session): session closed for user root
+2026-10-20T00:40:11.024548-03:00 thiagomurta systemd-logind[1506]: The system will power off now!
+2026-10-20T00:40:11.040601-03:00 thiagomurta dbus-daemon[1475]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.32" (uid=0 pid=2482 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5717 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T00:40:11.062166-03:00 thiagomurta systemd-logind[1506]: System is powering down.
+2026-10-20T00:40:11.127266-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-20T00:40:11.159756-03:00 thiagomurta dbus-daemon[1475]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.5" (uid=0 pid=1474 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.85" (uid=1000 pid=5019 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-20T00:40:11.198412-03:00 thiagomurta systemd-logind[1506]: Session 2 logged out. Waiting for processes to exit.
+2026-10-20T10:18:41.738463-03:00 thiagomurta systemd-logind[1471]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-20T10:18:41.738468-03:00 thiagomurta systemd-logind[1471]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-20T10:18:41.738475-03:00 thiagomurta systemd-logind[1471]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-20T10:18:41.738486-03:00 thiagomurta systemd-logind[1471]: New seat seat0.
+2026-10-20T10:18:42.510488-03:00 thiagomurta sshd[2059]: Server listening on 0.0.0.0 port 22.
+2026-10-20T10:18:42.510705-03:00 thiagomurta sshd[2059]: Server listening on :: port 22.
+2026-10-20T10:18:42.760606-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-20T10:18:42.790655-03:00 thiagomurta systemd-logind[1471]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-20T10:18:42.857577-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-20T10:18:42.858686-03:00 thiagomurta systemd-logind[1471]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-20T10:18:50.805053-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-20T10:18:50.805280-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-20T10:18:50.824703-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-20T10:18:50.839203-03:00 thiagomurta systemd-logind[1471]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-20T10:18:50.899933-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-20T10:18:50.901186-03:00 thiagomurta systemd-logind[1471]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-20T10:18:51.376108-03:00 thiagomurta gnome-keyring-daemon[4462]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-20T10:18:51.385478-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-20T10:18:54.444409-03:00 thiagomurta gnome-keyring-daemon[4462]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-20T10:18:56.122655-03:00 thiagomurta dbus-daemon[1440]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2462 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5523 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T10:18:56.169636-03:00 thiagomurta dbus-daemon[1440]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2462 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5523 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T10:18:56.177946-03:00 thiagomurta dbus-daemon[1440]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2462 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5523 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T10:18:56.187270-03:00 thiagomurta dbus-daemon[1440]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2462 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5523 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T10:18:56.192104-03:00 thiagomurta dbus-daemon[1440]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2462 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5523 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T10:18:57.017415-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-20T10:18:57.022190-03:00 thiagomurta systemd-logind[1471]: Session c1 logged out. Waiting for processes to exit.
+2026-10-20T10:18:57.025982-03:00 thiagomurta systemd-logind[1471]: Removed session c1.
+2026-10-20T10:19:00.046114-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-20T10:19:00.047323-03:00 thiagomurta PackageKit: message repeated 2 times: [ uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)]
+2026-10-20T10:19:00.057147-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-20T10:19:00.066011-03:00 thiagomurta PackageKit: message repeated 2 times: [ uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh]
+2026-10-20T10:19:07.333978-03:00 thiagomurta systemd-logind[1471]: Removed session 1.
+2026-10-20T10:19:07.334230-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-20T10:21:57.654828-03:00 thiagomurta pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T10:21:57.656018-03:00 thiagomurta pkexec[8830]: thiagomurta: Executing command [USER=root] [TTY=unknown] [CWD=/home/thiagomurta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-10-20T10:22:34.076781-03:00 thiagomurta systemd-logind[1471]: Watching system buttons on /dev/input/event9 (QCY AilyPods (AVRCP))
+2026-10-20T10:30:01.601007-03:00 thiagomurta CRON[12872]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T10:30:01.603604-03:00 thiagomurta CRON[12872]: pam_unix(cron:session): session closed for user root
+2026-10-20T11:16:49.268066-03:00 thiagomurta dbus-daemon[1440]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.83" (uid=1000 pid=4481 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=1439 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2026-10-20T11:16:53.120656-03:00 thiagomurta systemd-logind[1471]: The system will power off now!
+2026-10-20T11:16:53.139181-03:00 thiagomurta dbus-daemon[1440]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2462 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5523 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T11:16:53.189651-03:00 thiagomurta systemd-logind[1471]: System is powering down.
+2026-10-20T11:16:53.296562-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-20T11:16:53.345644-03:00 thiagomurta dbus-daemon[1440]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.6" (uid=0 pid=1439 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.84" (uid=1000 pid=4481 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-20T11:16:53.393422-03:00 thiagomurta systemd-logind[1471]: Session 2 logged out. Waiting for processes to exit.
+2026-10-20T12:38:31.521767-03:00 thiagomurta systemd-logind[1469]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-20T12:38:31.521773-03:00 thiagomurta systemd-logind[1469]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-20T12:38:31.521784-03:00 thiagomurta systemd-logind[1469]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-20T12:38:31.521789-03:00 thiagomurta systemd-logind[1469]: New seat seat0.
+2026-10-20T12:38:32.263673-03:00 thiagomurta sshd[2057]: Server listening on 0.0.0.0 port 22.
+2026-10-20T12:38:32.265915-03:00 thiagomurta sshd[2057]: Server listening on :: port 22.
+2026-10-20T12:38:32.512686-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-20T12:38:32.548408-03:00 thiagomurta systemd-logind[1469]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-20T12:38:32.617454-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-20T12:38:32.618430-03:00 thiagomurta systemd-logind[1469]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-20T12:38:44.294295-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-20T12:38:44.294466-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-20T12:38:44.315091-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-20T12:38:44.331401-03:00 thiagomurta systemd-logind[1469]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-20T12:38:44.413603-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-20T12:38:44.415408-03:00 thiagomurta systemd-logind[1469]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-20T12:38:45.051940-03:00 thiagomurta gnome-keyring-daemon[4838]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-20T12:38:45.060105-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-20T12:38:48.024519-03:00 thiagomurta gnome-keyring-daemon[4838]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-20T12:38:49.543049-03:00 thiagomurta dbus-daemon[1438]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2439 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5613 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T12:38:49.584175-03:00 thiagomurta dbus-daemon[1438]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2439 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5613 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T12:38:49.595367-03:00 thiagomurta dbus-daemon[1438]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2439 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5613 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T12:38:49.599198-03:00 thiagomurta dbus-daemon[1438]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2439 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5613 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T12:38:49.604298-03:00 thiagomurta dbus-daemon[1438]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2439 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5613 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T12:38:50.829462-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-20T12:38:50.833785-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-20T12:38:51.041607-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-20T12:38:51.044980-03:00 thiagomurta systemd-logind[1469]: Session c1 logged out. Waiting for processes to exit.
+2026-10-20T12:38:51.046774-03:00 thiagomurta systemd-logind[1469]: Removed session c1.
+2026-10-20T12:38:52.251164-03:00 thiagomurta pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T12:38:52.252324-03:00 thiagomurta pkexec[6954]: thiagomurta: Executing command [USER=root] [TTY=unknown] [CWD=/home/thiagomurta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-10-20T12:39:01.366175-03:00 thiagomurta systemd-logind[1469]: Removed session 1.
+2026-10-20T12:39:01.366498-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-20T12:40:41.111648-03:00 thiagomurta systemd-logind[1469]: Watching system buttons on /dev/input/event9 (QCY AilyPods (AVRCP))
+2026-10-20T12:41:52.032942-03:00 thiagomurta pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T12:41:52.034455-03:00 thiagomurta pkexec[10456]: thiagomurta: Executing command [USER=root] [TTY=unknown] [CWD=/home/thiagomurta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-10-20T13:17:01.371091-03:00 thiagomurta CRON[14177]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T13:17:01.375361-03:00 thiagomurta CRON[14177]: pam_unix(cron:session): session closed for user root
+2026-10-20T13:23:51.105758-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T13:23:51.106019-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/4 ; PWD=/home/thiagomurta/code/sandbox/exercicios-go/loja ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-20T13:23:54.862991-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-20T13:24:07.120517-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T13:24:07.120690-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/4 ; PWD=/home/thiagomurta/code/sandbox/exercicios-go/loja ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-10-20T13:24:31.179348-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-20T13:29:29.130090-03:00 thiagomurta gnome-keyring-daemon[4838]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-20T13:30:01.390605-03:00 thiagomurta CRON[20845]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T13:30:01.394014-03:00 thiagomurta CRON[20845]: pam_unix(cron:session): session closed for user root
+2026-10-20T13:38:52.399702-03:00 thiagomurta gnome-keyring-daemon[4838]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-20T13:43:52.441833-03:00 thiagomurta dbus-daemon[1438]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.87" (uid=1000 pid=4854 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=1437 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2026-10-20T13:44:15.463479-03:00 thiagomurta systemd-logind[1469]: The system will power off now!
+2026-10-20T13:44:15.505285-03:00 thiagomurta dbus-daemon[1438]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2439 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5613 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T13:44:15.535585-03:00 thiagomurta systemd-logind[1469]: System is powering down.
+2026-10-20T13:44:15.666634-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-20T13:44:15.708762-03:00 thiagomurta dbus-daemon[1438]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.6" (uid=0 pid=1437 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.88" (uid=1000 pid=4854 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-20T13:44:15.763533-03:00 thiagomurta systemd-logind[1469]: Session 2 logged out. Waiting for processes to exit.
+2026-10-20T13:59:58.470525-03:00 thiagomurta systemd-logind[1473]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-20T13:59:58.470532-03:00 thiagomurta systemd-logind[1473]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-20T13:59:58.470539-03:00 thiagomurta systemd-logind[1473]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-20T13:59:58.470547-03:00 thiagomurta systemd-logind[1473]: New seat seat0.
+2026-10-20T13:59:59.203930-03:00 thiagomurta sshd[2061]: Server listening on 0.0.0.0 port 22.
+2026-10-20T13:59:59.204089-03:00 thiagomurta sshd[2061]: Server listening on :: port 22.
+2026-10-20T13:59:59.441334-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-20T13:59:59.455887-03:00 thiagomurta systemd-logind[1473]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-20T13:59:59.572682-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-20T13:59:59.573614-03:00 thiagomurta systemd-logind[1473]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-20T14:01:16.589410-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-20T14:01:16.589523-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-20T14:01:16.599733-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-20T14:01:16.607019-03:00 thiagomurta systemd-logind[1473]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-20T14:01:16.653813-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-20T14:01:16.654478-03:00 thiagomurta systemd-logind[1473]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-20T14:01:16.952221-03:00 thiagomurta gnome-keyring-daemon[5084]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-20T14:01:16.959357-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-20T14:01:19.385528-03:00 thiagomurta dbus-daemon[1442]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.126" (uid=1000 pid=5789 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:01:19.415703-03:00 thiagomurta dbus-daemon[1442]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.126" (uid=1000 pid=5789 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:01:19.425487-03:00 thiagomurta dbus-daemon[1442]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.126" (uid=1000 pid=5789 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:01:19.428218-03:00 thiagomurta dbus-daemon[1442]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.126" (uid=1000 pid=5789 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:01:19.431275-03:00 thiagomurta dbus-daemon[1442]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.126" (uid=1000 pid=5789 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:01:20.449793-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-20T14:01:20.452727-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-20T14:01:20.912106-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-20T14:01:20.915732-03:00 thiagomurta systemd-logind[1473]: Session c1 logged out. Waiting for processes to exit.
+2026-10-20T14:01:20.917043-03:00 thiagomurta systemd-logind[1473]: Removed session c1.
+2026-10-20T14:01:31.140610-03:00 thiagomurta systemd-logind[1473]: Removed session 1.
+2026-10-20T14:01:31.140907-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-20T14:17:01.325510-03:00 thiagomurta CRON[10608]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T14:17:01.328523-03:00 thiagomurta CRON[10608]: pam_unix(cron:session): session closed for user root
+2026-10-20T14:30:01.337650-03:00 thiagomurta CRON[13558]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T14:30:01.339781-03:00 thiagomurta CRON[13558]: pam_unix(cron:session): session closed for user root
+2026-10-20T14:31:21.975459-03:00 thiagomurta gnome-keyring-daemon[5084]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-20T14:32:03.538091-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T14:32:03.538657-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/2 ; PWD=/home/thiagomurta/code/linux-commands ; USER=root ; COMMAND=/usr/bin/apt install apache2
+2026-10-20T14:32:19.242007-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-20T14:38:14.922842-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T14:38:14.923003-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/5 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/su 
+2026-10-20T14:38:14.935449-03:00 thiagomurta su[16891]: (to root) root on pts/6
+2026-10-20T14:38:14.935991-03:00 thiagomurta su[16891]: pam_unix(su:session): session opened for user root(uid=0) by thiagomurta(uid=0)
+2026-10-20T14:38:14.936996-03:00 thiagomurta systemd-logind[1473]: Existing logind session ID 3 used by new audit session, ignoring.
+2026-10-20T14:38:14.944740-03:00 thiagomurta systemd-logind[1473]: New session 'c2' of user 'root' with class 'user-early' and type 'tty'.
+2026-10-20T14:38:14.998643-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T14:38:14.999902-03:00 thiagomurta systemd-logind[1473]: New session '6' of user 'root' with class 'manager-early' and type 'unspecified'.
+2026-10-20T14:38:46.392330-03:00 thiagomurta gnome-keyring-daemon[17675]: The Secret Service was already initialized
+2026-10-20T14:38:46.392756-03:00 thiagomurta gnome-keyring-daemon[17674]: discover_other_daemon: 1
+2026-10-20T14:38:46.424002-03:00 thiagomurta gnome-keyring-daemon[17675]: couldn't initialize prompt: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.keyring.SystemPrompter exited with status 1
+2026-10-20T14:38:46.440497-03:00 thiagomurta gnome-keyring-daemon[17675]: couldn't initialize prompt: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.keyring.SystemPrompter exited with status 1
+2026-10-20T14:39:27.689397-03:00 thiagomurta gnome-keyring-daemon[17675]: couldn't initialize prompt: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.keyring.SystemPrompter exited with status 1
+2026-10-20T14:39:27.705259-03:00 thiagomurta gnome-keyring-daemon[17675]: couldn't initialize prompt: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.keyring.SystemPrompter exited with status 1
+2026-10-20T14:40:44.223584-03:00 thiagomurta dbus-daemon[16919]: [session uid=0 pid=16919 pidfd=5] Failed to activate service 'org.freedesktop.portal.Desktop': timed out (service_start_timeout=120000ms)
+2026-10-20T14:40:44.223875-03:00 thiagomurta dbus-daemon[16919]: [session uid=0 pid=16919 pidfd=5] Failed to activate service 'org.freedesktop.impl.portal.desktop.gtk': timed out (service_start_timeout=120000ms)
+2026-10-20T14:40:47.237558-03:00 thiagomurta su[16891]: pam_unix(su:session): session closed for user root
+2026-10-20T14:40:47.239438-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-20T14:40:47.241133-03:00 thiagomurta systemd-logind[1473]: Session c2 logged out. Waiting for processes to exit.
+2026-10-20T14:40:47.241862-03:00 thiagomurta systemd-logind[1473]: Removed session c2.
+2026-10-20T14:40:57.424335-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user root
+2026-10-20T14:40:57.424663-03:00 thiagomurta systemd-logind[1473]: Removed session 6.
+2026-10-20T14:41:40.440998-03:00 thiagomurta systemd-logind[1473]: The system will power off now!
+2026-10-20T14:41:40.460022-03:00 thiagomurta dbus-daemon[1442]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.126" (uid=1000 pid=5789 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:41:40.477228-03:00 thiagomurta systemd-logind[1473]: System is powering down.
+2026-10-20T14:41:40.538797-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-20T14:41:40.569645-03:00 thiagomurta dbus-daemon[1442]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.6" (uid=0 pid=1441 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.89" (uid=1000 pid=5102 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-20T14:41:40.614718-03:00 thiagomurta systemd-logind[1473]: Session 2 logged out. Waiting for processes to exit.
+2026-10-20T14:48:05.131128-03:00 thiagomurta systemd-logind[1457]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-20T14:48:05.131132-03:00 thiagomurta systemd-logind[1457]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-20T14:48:05.131138-03:00 thiagomurta systemd-logind[1457]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-20T14:48:05.131141-03:00 thiagomurta systemd-logind[1457]: New seat seat0.
+2026-10-20T14:48:05.876273-03:00 thiagomurta sshd[2052]: Server listening on 0.0.0.0 port 22.
+2026-10-20T14:48:05.876429-03:00 thiagomurta sshd[2052]: Server listening on :: port 22.
+2026-10-20T14:48:06.102953-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-20T14:48:06.115547-03:00 thiagomurta systemd-logind[1457]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-20T14:48:06.164796-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-20T14:48:06.165843-03:00 thiagomurta systemd-logind[1457]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-20T14:48:18.634006-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-20T14:48:18.634108-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-20T14:48:18.644844-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-20T14:48:18.651895-03:00 thiagomurta systemd-logind[1457]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-20T14:48:18.704747-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-20T14:48:18.705482-03:00 thiagomurta systemd-logind[1457]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-20T14:48:19.000062-03:00 thiagomurta gnome-keyring-daemon[4832]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-20T14:48:19.004513-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-20T14:48:21.444181-03:00 thiagomurta dbus-daemon[1426]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2516 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:48:21.472871-03:00 thiagomurta dbus-daemon[1426]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2516 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:48:21.480119-03:00 thiagomurta dbus-daemon[1426]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2516 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:48:21.484268-03:00 thiagomurta dbus-daemon[1426]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2516 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:48:21.487257-03:00 thiagomurta dbus-daemon[1426]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2516 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:48:22.598594-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-20T14:48:22.601571-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-20T14:48:23.100085-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-20T14:48:23.104258-03:00 thiagomurta systemd-logind[1457]: Session c1 logged out. Waiting for processes to exit.
+2026-10-20T14:48:23.105595-03:00 thiagomurta systemd-logind[1457]: Removed session c1.
+2026-10-20T14:48:33.196447-03:00 thiagomurta systemd-logind[1457]: Removed session 1.
+2026-10-20T14:48:33.196713-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-20T14:48:34.508388-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T14:48:34.508511-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt remove apache2
+2026-10-20T14:48:43.156446-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-20T14:49:54.866067-03:00 thiagomurta systemd-logind[1457]: The system will power off now!
+2026-10-20T14:49:54.888405-03:00 thiagomurta dbus-daemon[1426]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2516 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T14:49:54.902869-03:00 thiagomurta systemd-logind[1457]: System is powering down.
+2026-10-20T14:49:54.957068-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-20T14:49:54.977515-03:00 thiagomurta dbus-daemon[1426]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.6" (uid=0 pid=1425 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.89" (uid=1000 pid=4850 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-20T14:49:55.029214-03:00 thiagomurta systemd-logind[1457]: Session 2 logged out. Waiting for processes to exit.
+2026-10-20T18:46:17.489514-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-20T18:46:17.489521-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-20T18:46:17.489527-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-20T18:46:17.489532-03:00 thiagomurta systemd-logind[1462]: New seat seat0.
+2026-10-20T18:46:18.229309-03:00 thiagomurta sshd[2056]: Server listening on 0.0.0.0 port 22.
+2026-10-20T18:46:18.229492-03:00 thiagomurta sshd[2056]: Server listening on :: port 22.
+2026-10-20T18:46:18.466712-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-20T18:46:18.481771-03:00 thiagomurta systemd-logind[1462]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-20T18:46:18.579297-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-20T18:46:18.580267-03:00 thiagomurta systemd-logind[1462]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-20T18:46:26.152017-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-20T18:46:26.152186-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-20T18:46:26.173705-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-20T18:46:26.189450-03:00 thiagomurta systemd-logind[1462]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-20T18:46:26.265646-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-20T18:46:26.267569-03:00 thiagomurta systemd-logind[1462]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-20T18:46:26.895873-03:00 thiagomurta gnome-keyring-daemon[4861]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-20T18:46:26.905882-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-20T18:46:29.707560-03:00 thiagomurta gnome-keyring-daemon[4861]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-20T18:46:30.893156-03:00 thiagomurta dbus-daemon[1432]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.36" (uid=0 pid=2452 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.124" (uid=1000 pid=5583 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T18:46:30.930641-03:00 thiagomurta dbus-daemon[1432]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.36" (uid=0 pid=2452 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.124" (uid=1000 pid=5583 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T18:46:30.940817-03:00 thiagomurta dbus-daemon[1432]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.36" (uid=0 pid=2452 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.124" (uid=1000 pid=5583 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T18:46:30.945555-03:00 thiagomurta dbus-daemon[1432]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.36" (uid=0 pid=2452 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.124" (uid=1000 pid=5583 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T18:46:30.950932-03:00 thiagomurta dbus-daemon[1432]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.36" (uid=0 pid=2452 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.124" (uid=1000 pid=5583 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T18:46:32.107963-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-20T18:46:32.112407-03:00 thiagomurta systemd-logind[1462]: Session c1 logged out. Waiting for processes to exit.
+2026-10-20T18:46:32.113829-03:00 thiagomurta systemd-logind[1462]: Removed session c1.
+2026-10-20T18:46:32.308224-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-20T18:46:32.312956-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-20T18:46:42.435335-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-20T18:46:42.435683-03:00 thiagomurta systemd-logind[1462]: Removed session 1.
+2026-10-20T19:17:01.363060-03:00 thiagomurta CRON[11071]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T19:17:01.367008-03:00 thiagomurta CRON[11071]: pam_unix(cron:session): session closed for user root
+2026-10-20T19:19:53.519704-03:00 thiagomurta systemd-logind[1462]: The system will suspend now!
+2026-10-20T20:36:01.216152-03:00 thiagomurta systemd-logind[1462]: Operation 'suspend' finished.
+2026-10-20T20:36:02.047287-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event10 (SINO WEALTH Gaming KB  System Control)
+2026-10-20T20:36:02.048145-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event9 (SINO WEALTH Gaming KB )
+2026-10-20T20:36:02.050290-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event11 (SINO WEALTH Gaming KB  Consumer Control)
+2026-10-20T20:36:02.056103-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event12 (SINO WEALTH Gaming KB  Keyboard)
+2026-10-20T20:36:02.060532-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event14 (USB GAMING MOUSE  Keyboard)
+2026-10-20T20:36:08.027660-03:00 thiagomurta CRON[11965]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T20:36:08.032614-03:00 thiagomurta CRON[11965]: pam_unix(cron:session): session closed for user root
+2026-10-20T20:36:08.043299-03:00 thiagomurta CRON[11968]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T20:36:08.047025-03:00 thiagomurta CRON[11968]: pam_unix(cron:session): session closed for user root
+2026-10-20T20:36:10.671490-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-20T20:36:12.472542-03:00 thiagomurta gnome-keyring-daemon[4861]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-20T20:52:57.603515-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T20:52:57.603728-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-20T20:53:07.190101-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-20T20:53:12.394888-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T20:53:12.395092-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-10-20T20:53:34.924990-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-20T20:53:40.309747-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T20:53:40.309958-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-20T20:53:43.371263-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-20T21:12:29.767517-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event12 (SINO WEALTH Gaming KB  Keyboard)
+2026-10-20T21:12:29.767859-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event10 (SINO WEALTH Gaming KB  System Control)
+2026-10-20T21:12:29.769663-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event9 (SINO WEALTH Gaming KB )
+2026-10-20T21:12:29.775954-03:00 thiagomurta systemd-logind[1462]: Watching system buttons on /dev/input/event11 (SINO WEALTH Gaming KB  Consumer Control)
+2026-10-20T21:17:01.707179-03:00 thiagomurta CRON[28504]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T21:17:01.714093-03:00 thiagomurta CRON[28504]: pam_unix(cron:session): session closed for user root
+2026-10-20T21:30:01.730583-03:00 thiagomurta CRON[30018]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T21:30:01.736423-03:00 thiagomurta CRON[30018]: pam_unix(cron:session): session closed for user root
+2026-10-20T21:32:40.527860-03:00 thiagomurta gnome-keyring-daemon[4861]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-20T21:37:05.176580-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T21:37:05.176879-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-20T21:37:08.996576-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-20T21:37:14.326644-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-20T21:37:14.326860-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-10-20T21:37:15.517420-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-20T22:17:01.760031-03:00 thiagomurta CRON[35210]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T22:17:01.766698-03:00 thiagomurta CRON[35210]: pam_unix(cron:session): session closed for user root
+2026-10-20T22:30:01.780046-03:00 thiagomurta CRON[37383]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T22:30:01.782940-03:00 thiagomurta CRON[37383]: pam_unix(cron:session): session closed for user root
+2026-10-20T22:32:40.600713-03:00 thiagomurta gnome-keyring-daemon[4861]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-20T23:17:01.810675-03:00 thiagomurta CRON[61267]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T23:17:01.817792-03:00 thiagomurta CRON[61267]: pam_unix(cron:session): session closed for user root
+2026-10-20T23:30:01.830690-03:00 thiagomurta CRON[63714]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-20T23:30:01.835455-03:00 thiagomurta CRON[63714]: pam_unix(cron:session): session closed for user root
+2026-10-20T23:32:40.670772-03:00 thiagomurta gnome-keyring-daemon[4861]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-20T23:35:01.840891-03:00 thiagomurta systemd-logind[1462]: The system will power off now!
+2026-10-20T23:35:01.858562-03:00 thiagomurta dbus-daemon[1432]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.36" (uid=0 pid=2452 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.124" (uid=1000 pid=5583 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-20T23:35:01.915134-03:00 thiagomurta systemd-logind[1462]: System is powering down.
+2026-10-20T23:35:02.024016-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-20T23:35:02.068914-03:00 thiagomurta dbus-daemon[1432]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.5" (uid=0 pid=1431 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.90" (uid=1000 pid=4873 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-20T23:35:02.155942-03:00 thiagomurta systemd-logind[1462]: Session 2 logged out. Waiting for processes to exit.
+2026-10-21T11:37:34.242116-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event3 (SINO WEALTH Gaming KB )
+2026-10-21T11:37:34.242120-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event5 (SINO WEALTH Gaming KB  System Control)
+2026-10-21T11:37:34.242129-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event7 (SINO WEALTH Gaming KB  Consumer Control)
+2026-10-21T11:37:34.242133-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event8 (SINO WEALTH Gaming KB  Keyboard)
+2026-10-21T11:37:34.242138-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event4 (USB GAMING MOUSE  Keyboard)
+2026-10-21T11:37:34.242142-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-21T11:37:34.242145-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-21T11:37:34.242149-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-21T11:37:34.242157-03:00 thiagomurta systemd-logind[1499]: New seat seat0.
+2026-10-21T11:37:35.003971-03:00 thiagomurta sshd[2178]: Server listening on 0.0.0.0 port 22.
+2026-10-21T11:37:35.004169-03:00 thiagomurta sshd[2178]: Server listening on :: port 22.
+2026-10-21T11:37:35.211875-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-21T11:37:35.224703-03:00 thiagomurta systemd-logind[1499]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-21T11:37:35.286608-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-21T11:37:35.287427-03:00 thiagomurta systemd-logind[1499]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-21T11:37:49.196643-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-21T11:37:49.196728-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-21T11:37:49.230566-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-21T11:37:49.240628-03:00 thiagomurta systemd-logind[1499]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-21T11:37:49.286264-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-21T11:37:49.286986-03:00 thiagomurta systemd-logind[1499]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-21T11:37:49.583189-03:00 thiagomurta gnome-keyring-daemon[5072]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-21T11:37:49.588041-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-21T11:37:51.847911-03:00 thiagomurta gnome-keyring-daemon[5072]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-21T11:37:52.487779-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:37:52.522257-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:37:52.529906-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:37:52.536211-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:37:52.541925-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:37:53.629165-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-21T11:37:53.632574-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-21T11:37:53.895770-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-21T11:37:53.900492-03:00 thiagomurta systemd-logind[1499]: Session c1 logged out. Waiting for processes to exit.
+2026-10-21T11:37:53.901803-03:00 thiagomurta systemd-logind[1499]: Removed session c1.
+2026-10-21T11:38:03.220089-03:00 thiagomurta systemd-logind[1499]: Removed session 1.
+2026-10-21T11:38:03.220435-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-21T11:38:52.798139-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-21T11:38:52.800481-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-21T11:38:58.330771-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T11:38:58.330920-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-21T11:38:59.055536-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-21T11:39:02.437998-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T11:39:02.438095-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-21T11:39:04.461273-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-21T11:39:11.605962-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T11:39:11.606060-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-10-21T11:39:18.739742-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-21T11:39:24.996612-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:39:24.998005-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:39:24.999720-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:39:25.001496-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:39:25.003339-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:41:19.151131-03:00 thiagomurta polkitd[1470]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-10-21T11:42:27.234383-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-21T11:42:27.237028-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-21T11:42:36.848783-03:00 thiagomurta polkitd[1470]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-10-21T11:42:56.566568-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-21T11:42:56.569870-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-21T11:43:03.829930-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:43:03.832064-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:43:03.834551-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:43:03.836905-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:43:03.838888-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T11:44:01.842713-03:00 thiagomurta gnome-keyring-daemon[5072]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-21T12:17:01.149872-03:00 thiagomurta CRON[31013]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T12:17:01.152820-03:00 thiagomurta CRON[31013]: pam_unix(cron:session): session closed for user root
+2026-10-21T12:30:01.162753-03:00 thiagomurta CRON[32914]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T12:30:01.164714-03:00 thiagomurta CRON[32914]: pam_unix(cron:session): session closed for user root
+2026-10-21T12:36:36.243792-03:00 thiagomurta gnome-keyring-daemon[5072]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-21T12:37:55.679898-03:00 thiagomurta gnome-keyring-daemon[5072]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-21T13:08:40.766270-03:00 thiagomurta systemd-logind[1499]: The system will power off now!
+2026-10-21T13:08:40.816050-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2577 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5803 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T13:08:40.841940-03:00 thiagomurta systemd-logind[1499]: System is powering down.
+2026-10-21T13:08:40.951120-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-21T13:08:40.995327-03:00 thiagomurta dbus-daemon[1461]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.6" (uid=0 pid=1460 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.89" (uid=1000 pid=5090 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-21T13:08:41.046749-03:00 thiagomurta systemd-logind[1499]: Session 2 logged out. Waiting for processes to exit.
+2026-10-21T14:13:13.180428-03:00 thiagomurta systemd-logind[1480]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-21T14:13:13.180434-03:00 thiagomurta systemd-logind[1480]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-21T14:13:13.180442-03:00 thiagomurta systemd-logind[1480]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-21T14:13:13.180450-03:00 thiagomurta systemd-logind[1480]: New seat seat0.
+2026-10-21T14:13:13.945376-03:00 thiagomurta sshd[2073]: Server listening on 0.0.0.0 port 22.
+2026-10-21T14:13:13.945511-03:00 thiagomurta sshd[2073]: Server listening on :: port 22.
+2026-10-21T14:13:14.193166-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-21T14:13:14.229461-03:00 thiagomurta systemd-logind[1480]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-21T14:13:14.293758-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-21T14:13:14.294764-03:00 thiagomurta systemd-logind[1480]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-21T14:13:42.560759-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-21T14:13:42.561131-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-21T14:13:42.571860-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-21T14:13:42.579164-03:00 thiagomurta systemd-logind[1480]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-21T14:13:42.625890-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-21T14:13:42.626505-03:00 thiagomurta systemd-logind[1480]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-21T14:13:42.933589-03:00 thiagomurta gnome-keyring-daemon[4830]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-21T14:13:42.939545-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-21T14:13:45.326243-03:00 thiagomurta dbus-daemon[1449]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T14:13:45.348946-03:00 thiagomurta dbus-daemon[1449]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T14:13:45.354201-03:00 thiagomurta dbus-daemon[1449]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T14:13:45.357096-03:00 thiagomurta dbus-daemon[1449]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T14:13:45.359562-03:00 thiagomurta dbus-daemon[1449]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T14:13:46.376988-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-21T14:13:46.379720-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-21T14:13:47.013527-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-21T14:13:47.019664-03:00 thiagomurta systemd-logind[1480]: Session c1 logged out. Waiting for processes to exit.
+2026-10-21T14:13:47.019763-03:00 thiagomurta systemd-logind[1480]: Removed session c1.
+2026-10-21T14:13:57.116666-03:00 thiagomurta systemd-logind[1480]: Removed session 1.
+2026-10-21T14:13:57.116923-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-21T14:15:18.545780-03:00 thiagomurta gnome-keyring-daemon[4830]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-21T14:17:01.933689-03:00 thiagomurta CRON[10804]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T14:17:01.936829-03:00 thiagomurta CRON[10804]: pam_unix(cron:session): session closed for user root
+2026-10-21T14:30:01.945757-03:00 thiagomurta CRON[12588]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T14:30:01.950669-03:00 thiagomurta CRON[12588]: pam_unix(cron:session): session closed for user root
+2026-10-21T14:44:15.791291-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T14:44:15.791451-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-21T14:44:26.517502-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-21T14:46:47.136477-03:00 thiagomurta pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T14:46:47.139752-03:00 thiagomurta pkexec[15782]: thiagomurta: Executing command [USER=root] [TTY=unknown] [CWD=/home/thiagomurta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-10-21T15:13:46.827506-03:00 thiagomurta gnome-keyring-daemon[4830]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-21T15:17:01.974443-03:00 thiagomurta CRON[17698]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T15:17:01.977295-03:00 thiagomurta CRON[17698]: pam_unix(cron:session): session closed for user root
+2026-10-21T15:30:01.989369-03:00 thiagomurta CRON[18281]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T15:30:01.995490-03:00 thiagomurta CRON[18281]: pam_unix(cron:session): session closed for user root
+2026-10-21T16:13:46.895955-03:00 thiagomurta gnome-keyring-daemon[4830]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-21T16:17:01.014722-03:00 thiagomurta CRON[20211]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T16:17:01.017770-03:00 thiagomurta CRON[20211]: pam_unix(cron:session): session closed for user root
+2026-10-21T16:30:01.030586-03:00 thiagomurta CRON[20749]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T16:30:01.032494-03:00 thiagomurta CRON[20749]: pam_unix(cron:session): session closed for user root
+2026-10-21T16:38:22.499526-03:00 thiagomurta systemd-logind[1480]: The system will power off now!
+2026-10-21T16:38:22.519756-03:00 thiagomurta dbus-daemon[1449]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2453 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.122" (uid=1000 pid=5544 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T16:38:22.539400-03:00 thiagomurta systemd-logind[1480]: System is powering down.
+2026-10-21T16:38:22.607537-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-21T16:38:22.635574-03:00 thiagomurta dbus-daemon[1449]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.6" (uid=0 pid=1448 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.88" (uid=1000 pid=4848 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-21T16:38:22.668385-03:00 thiagomurta systemd-logind[1480]: Session 2 logged out. Waiting for processes to exit.
+2026-10-21T17:42:04.671329-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event4 (SINO WEALTH Gaming KB )
+2026-10-21T17:42:04.671334-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event8 (SINO WEALTH Gaming KB  Consumer Control)
+2026-10-21T17:42:04.671339-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event9 (SINO WEALTH Gaming KB  Keyboard)
+2026-10-21T17:42:04.671346-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event7 (SINO WEALTH Gaming KB  System Control)
+2026-10-21T17:42:04.671351-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event11 (USB GAMING MOUSE  Keyboard)
+2026-10-21T17:42:04.671361-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-21T17:42:04.671366-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-21T17:42:04.671371-03:00 thiagomurta systemd-logind[1499]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-21T17:42:04.671376-03:00 thiagomurta systemd-logind[1499]: New seat seat0.
+2026-10-21T17:42:05.458453-03:00 thiagomurta sshd[2094]: Server listening on 0.0.0.0 port 22.
+2026-10-21T17:42:05.458584-03:00 thiagomurta sshd[2094]: Server listening on :: port 22.
+2026-10-21T17:42:05.709055-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-21T17:42:05.725448-03:00 thiagomurta systemd-logind[1499]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-21T17:42:05.832111-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-21T17:42:05.833093-03:00 thiagomurta systemd-logind[1499]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-21T17:42:17.849873-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-21T17:42:17.850011-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-21T17:42:17.870705-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-21T17:42:17.887149-03:00 thiagomurta systemd-logind[1499]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-21T17:42:17.969226-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-21T17:42:17.970885-03:00 thiagomurta systemd-logind[1499]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-21T17:42:18.616643-03:00 thiagomurta gnome-keyring-daemon[4915]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-21T17:42:18.628004-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-21T17:42:21.472434-03:00 thiagomurta gnome-keyring-daemon[4915]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-21T17:42:22.612047-03:00 thiagomurta dbus-daemon[1468]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2480 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5664 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T17:42:22.645709-03:00 thiagomurta dbus-daemon[1468]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2480 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5664 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T17:42:22.655290-03:00 thiagomurta dbus-daemon[1468]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2480 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5664 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T17:42:22.658979-03:00 thiagomurta dbus-daemon[1468]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2480 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5664 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T17:42:22.663363-03:00 thiagomurta dbus-daemon[1468]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2480 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5664 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T17:42:23.789067-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-21T17:42:23.793831-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-21T17:42:24.080031-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-21T17:42:24.083933-03:00 thiagomurta systemd-logind[1499]: Session c1 logged out. Waiting for processes to exit.
+2026-10-21T17:42:24.086927-03:00 thiagomurta systemd-logind[1499]: Removed session c1.
+2026-10-21T17:42:25.018633-03:00 thiagomurta pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T17:42:25.019549-03:00 thiagomurta pkexec[6973]: thiagomurta: Executing command [USER=root] [TTY=unknown] [CWD=/home/thiagomurta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-10-21T17:42:34.269357-03:00 thiagomurta systemd-logind[1499]: Removed session 1.
+2026-10-21T17:42:34.269798-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-21T17:45:24.788642-03:00 thiagomurta pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T17:45:24.790374-03:00 thiagomurta pkexec[9754]: thiagomurta: Executing command [USER=root] [TTY=unknown] [CWD=/home/thiagomurta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-10-21T18:02:19.559747-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-21T18:06:03.968721-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T18:06:03.969103-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-10-21T18:06:15.948115-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-21T18:06:17.855631-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T18:06:17.855805-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-21T18:06:22.907537-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-21T18:06:25.325055-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T18:06:25.325779-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-10-21T18:06:25.634539-03:00 thiagomurta pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T18:06:25.635977-03:00 thiagomurta pkexec[12471]: thiagomurta: Executing command [USER=root] [TTY=unknown] [CWD=/home/thiagomurta] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-10-21T18:07:02.153679-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-21T18:10:11.639290-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-21T18:10:11.667663-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-21T18:10:14.716600-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-21T18:17:01.549632-03:00 thiagomurta CRON[13789]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T18:17:01.553718-03:00 thiagomurta CRON[13789]: pam_unix(cron:session): session closed for user root
+2026-10-21T18:30:01.568941-03:00 thiagomurta CRON[15013]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T18:30:01.571576-03:00 thiagomurta CRON[15013]: pam_unix(cron:session): session closed for user root
+2026-10-21T18:40:57.325963-03:00 thiagomurta gnome-keyring-daemon[4915]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-21T18:42:26.238832-03:00 thiagomurta gnome-keyring-daemon[4915]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-21T19:17:01.598543-03:00 thiagomurta CRON[28064]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T19:17:01.603457-03:00 thiagomurta CRON[28064]: pam_unix(cron:session): session closed for user root
+2026-10-21T19:30:01.616583-03:00 thiagomurta CRON[32409]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T19:30:01.619436-03:00 thiagomurta CRON[32409]: pam_unix(cron:session): session closed for user root
+2026-10-21T19:42:26.325566-03:00 thiagomurta gnome-keyring-daemon[4915]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-21T20:10:05.463831-03:00 thiagomurta systemd-logind[1499]: The system will power off now!
+2026-10-21T20:10:05.474222-03:00 thiagomurta dbus-daemon[1468]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2480 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.121" (uid=1000 pid=5664 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T20:10:05.508033-03:00 thiagomurta systemd-logind[1499]: System is powering down.
+2026-10-21T20:10:05.565477-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-21T20:10:05.588656-03:00 thiagomurta dbus-daemon[1468]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.4" (uid=0 pid=1467 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.87" (uid=1000 pid=4930 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-21T20:10:05.636786-03:00 thiagomurta systemd-logind[1499]: Session 2 logged out. Waiting for processes to exit.
+2026-10-21T22:03:32.350450-03:00 thiagomurta systemd-logind[1482]: Watching system buttons on /dev/input/event6 (SINO WEALTH Gaming KB )
+2026-10-21T22:03:32.350455-03:00 thiagomurta systemd-logind[1482]: Watching system buttons on /dev/input/event8 (SINO WEALTH Gaming KB  Consumer Control)
+2026-10-21T22:03:32.350460-03:00 thiagomurta systemd-logind[1482]: Watching system buttons on /dev/input/event9 (SINO WEALTH Gaming KB  Keyboard)
+2026-10-21T22:03:32.350465-03:00 thiagomurta systemd-logind[1482]: Watching system buttons on /dev/input/event7 (SINO WEALTH Gaming KB  System Control)
+2026-10-21T22:03:32.350471-03:00 thiagomurta systemd-logind[1482]: Watching system buttons on /dev/input/event11 (USB GAMING MOUSE  Keyboard)
+2026-10-21T22:03:32.350483-03:00 thiagomurta systemd-logind[1482]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-21T22:03:32.350488-03:00 thiagomurta systemd-logind[1482]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-21T22:03:32.350497-03:00 thiagomurta systemd-logind[1482]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-21T22:03:32.350502-03:00 thiagomurta systemd-logind[1482]: New seat seat0.
+2026-10-21T22:03:33.139376-03:00 thiagomurta sshd[2081]: Server listening on 0.0.0.0 port 22.
+2026-10-21T22:03:33.139462-03:00 thiagomurta sshd[2081]: Server listening on :: port 22.
+2026-10-21T22:03:33.351739-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-21T22:03:33.379058-03:00 thiagomurta systemd-logind[1482]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-21T22:03:33.413030-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-21T22:03:33.413788-03:00 thiagomurta systemd-logind[1482]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-21T22:03:51.762046-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-21T22:03:51.762147-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-21T22:03:51.772621-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-21T22:03:51.779150-03:00 thiagomurta systemd-logind[1482]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-21T22:03:51.830520-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-21T22:03:51.831125-03:00 thiagomurta systemd-logind[1482]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-21T22:03:52.129387-03:00 thiagomurta gnome-keyring-daemon[4959]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-21T22:03:52.136282-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-21T22:03:54.837720-03:00 thiagomurta dbus-daemon[1450]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2486 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5681 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T22:03:54.867122-03:00 thiagomurta dbus-daemon[1450]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2486 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5681 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T22:03:54.872727-03:00 thiagomurta dbus-daemon[1450]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2486 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5681 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T22:03:54.877248-03:00 thiagomurta dbus-daemon[1450]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2486 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5681 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T22:03:54.879942-03:00 thiagomurta dbus-daemon[1450]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2486 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5681 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-21T22:03:54.987168-03:00 thiagomurta gnome-keyring-daemon[4959]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-21T22:03:55.982468-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-21T22:03:55.985071-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-21T22:03:56.062059-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-21T22:03:56.064238-03:00 thiagomurta systemd-logind[1482]: Session c1 logged out. Waiting for processes to exit.
+2026-10-21T22:03:56.065362-03:00 thiagomurta systemd-logind[1482]: Removed session c1.
+2026-10-21T22:04:07.063735-03:00 thiagomurta systemd-logind[1482]: Removed session 1.
+2026-10-21T22:04:07.064024-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-21T22:17:01.881184-03:00 thiagomurta CRON[13297]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T22:17:01.884458-03:00 thiagomurta CRON[13297]: pam_unix(cron:session): session closed for user root
+2026-10-21T22:23:24.369445-03:00 thiagomurta gnome-keyring-daemon[4959]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-21T22:30:01.897100-03:00 thiagomurta CRON[19907]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T22:30:02.019680-03:00 thiagomurta CRON[19907]: pam_unix(cron:session): session closed for user root
+2026-10-21T22:33:18.652812-03:00 thiagomurta polkitd[1457]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-10-21T23:03:57.952891-03:00 thiagomurta gnome-keyring-daemon[4959]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-21T23:17:01.912853-03:00 thiagomurta CRON[28990]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T23:17:01.915629-03:00 thiagomurta CRON[28990]: pam_unix(cron:session): session closed for user root
+2026-10-21T23:30:01.924874-03:00 thiagomurta CRON[32473]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-21T23:30:01.926805-03:00 thiagomurta CRON[32473]: pam_unix(cron:session): session closed for user root
+2026-10-22T00:01:10.970910-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-22T00:01:10.971434-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/3 ; PWD=/home/thiagomurta/code/linux-commands/bash ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-22T00:01:17.503234-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-22T00:01:17.511114-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-22T00:01:17.511178-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/3 ; PWD=/home/thiagomurta/code/linux-commands/bash ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+2026-10-22T00:01:18.338857-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-22T00:01:27.776916-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-22T00:01:27.777005-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/3 ; PWD=/home/thiagomurta/code/linux-commands/bash ; USER=root ; COMMAND=/usr/bin/apt autoremove
+2026-10-22T00:01:35.049311-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-22T00:03:58.308848-03:00 thiagomurta gnome-keyring-daemon[4959]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-22T00:17:01.939157-03:00 thiagomurta CRON[47331]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T00:17:01.967408-03:00 thiagomurta CRON[47331]: pam_unix(cron:session): session closed for user root
+2026-10-22T00:18:57.749663-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-22T00:18:57.754915-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/3 ; PWD=/home/thiagomurta/code/linux-commands/bash ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-22T00:19:08.560930-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-22T00:19:08.568719-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-22T00:19:08.568808-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/3 ; PWD=/home/thiagomurta/code/linux-commands/bash ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+2026-10-22T00:19:09.385362-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-22T01:03:57.962837-03:00 thiagomurta gnome-keyring-daemon[4959]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-22T01:17:01.954819-03:00 thiagomurta CRON[66665]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T01:17:02.084485-03:00 thiagomurta CRON[66665]: pam_unix(cron:session): session closed for user root
+2026-10-22T01:28:29.254862-03:00 thiagomurta gnome-keyring-daemon[4959]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-22T01:29:39.460838-03:00 thiagomurta gnome-keyring-daemon[4959]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-22T02:01:31.299602-03:00 thiagomurta systemd-logind[1482]: The system will power off now!
+2026-10-22T02:01:31.313107-03:00 thiagomurta dbus-daemon[1450]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.33" (uid=0 pid=2486 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.120" (uid=1000 pid=5681 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T02:01:31.353102-03:00 thiagomurta systemd-logind[1482]: System is powering down.
+2026-10-22T02:01:31.408763-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-22T02:01:31.436867-03:00 thiagomurta dbus-daemon[1450]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.6" (uid=0 pid=1449 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.87" (uid=1000 pid=4977 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-22T02:01:31.477685-03:00 thiagomurta systemd-logind[1482]: Session 2 logged out. Waiting for processes to exit.
+2026-10-22T11:04:00.754007-03:00 thiagomurta systemd-logind[1510]: Watching system buttons on /dev/input/event3 (SINO WEALTH Gaming KB )
+2026-10-22T11:04:00.754018-03:00 thiagomurta systemd-logind[1510]: Watching system buttons on /dev/input/event5 (SINO WEALTH Gaming KB  System Control)
+2026-10-22T11:04:00.754026-03:00 thiagomurta systemd-logind[1510]: Watching system buttons on /dev/input/event6 (SINO WEALTH Gaming KB  Consumer Control)
+2026-10-22T11:04:00.754035-03:00 thiagomurta systemd-logind[1510]: Watching system buttons on /dev/input/event7 (SINO WEALTH Gaming KB  Keyboard)
+2026-10-22T11:04:00.754044-03:00 thiagomurta systemd-logind[1510]: Watching system buttons on /dev/input/event9 (USB GAMING MOUSE  Keyboard)
+2026-10-22T11:04:00.754052-03:00 thiagomurta systemd-logind[1510]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-22T11:04:00.754060-03:00 thiagomurta systemd-logind[1510]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-22T11:04:00.754068-03:00 thiagomurta systemd-logind[1510]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-22T11:04:00.754075-03:00 thiagomurta systemd-logind[1510]: New seat seat0.
+2026-10-22T11:04:01.533733-03:00 thiagomurta sshd[2111]: Server listening on 0.0.0.0 port 22.
+2026-10-22T11:04:01.533861-03:00 thiagomurta sshd[2111]: Server listening on :: port 22.
+2026-10-22T11:04:01.773626-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-22T11:04:01.812119-03:00 thiagomurta systemd-logind[1510]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-22T11:04:01.901420-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-22T11:04:01.902371-03:00 thiagomurta systemd-logind[1510]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-22T11:04:15.107300-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-22T11:04:15.107442-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-22T11:04:15.128866-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-22T11:04:15.144951-03:00 thiagomurta systemd-logind[1510]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-22T11:04:15.222502-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-22T11:04:15.224067-03:00 thiagomurta systemd-logind[1510]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-22T11:04:15.880721-03:00 thiagomurta gnome-keyring-daemon[4900]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-22T11:04:15.891116-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-22T11:04:18.346992-03:00 thiagomurta gnome-keyring-daemon[4900]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-22T11:04:19.458651-03:00 thiagomurta dbus-daemon[1479]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2498 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5658 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T11:04:19.492131-03:00 thiagomurta dbus-daemon[1479]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2498 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5658 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T11:04:19.501341-03:00 thiagomurta dbus-daemon[1479]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2498 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5658 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T11:04:19.504396-03:00 thiagomurta dbus-daemon[1479]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2498 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5658 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T11:04:19.507295-03:00 thiagomurta dbus-daemon[1479]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2498 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5658 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T11:04:20.651920-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-22T11:04:20.656588-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-22T11:04:20.894491-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-22T11:04:20.898473-03:00 thiagomurta systemd-logind[1510]: Session c1 logged out. Waiting for processes to exit.
+2026-10-22T11:04:20.900205-03:00 thiagomurta systemd-logind[1510]: Removed session c1.
+2026-10-22T11:04:30.289490-03:00 thiagomurta systemd-logind[1510]: Removed session 1.
+2026-10-22T11:04:54.454913-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-22T11:04:54.455246-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta/code/sandbox/exercicios-go/biblioteca ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-22T11:05:20.247082-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-22T11:05:20.251925-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-22T11:05:48.224665-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-22T11:06:02.148534-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-22T11:06:02.148806-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta/code/sandbox/exercicios-go/biblioteca ; USER=root ; COMMAND=/usr/bin/apt list --upgradable
+2026-10-22T11:06:13.069216-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-22T11:06:18.885340-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-22T11:06:18.885527-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta/code/sandbox/exercicios-go/biblioteca ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-10-22T11:06:32.123190-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-22T11:10:30.333012-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-22T11:10:30.333373-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta/code/sandbox/exercicios-go/biblioteca ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-10-22T11:10:31.441623-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-22T11:14:37.899442-03:00 thiagomurta polkitd[1486]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-10-22T11:15:46.243198-03:00 thiagomurta systemd-logind[1510]: The system will power off now!
+2026-10-22T11:15:46.263384-03:00 thiagomurta dbus-daemon[1479]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2498 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.119" (uid=1000 pid=5658 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T11:15:46.307306-03:00 thiagomurta systemd-logind[1510]: System is powering down.
+2026-10-22T11:15:46.426289-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-22T11:15:46.476371-03:00 thiagomurta dbus-daemon[1479]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.5" (uid=0 pid=1478 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.87" (uid=1000 pid=4912 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-22T11:15:46.529275-03:00 thiagomurta systemd-logind[1510]: Session 2 logged out. Waiting for processes to exit.
+2026-10-22T13:30:20.605359-03:00 thiagomurta systemd-logind[1477]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-22T13:30:20.605365-03:00 thiagomurta systemd-logind[1477]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-22T13:30:20.605372-03:00 thiagomurta systemd-logind[1477]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-22T13:30:20.605377-03:00 thiagomurta systemd-logind[1477]: New seat seat0.
+2026-10-22T13:30:21.409232-03:00 thiagomurta sshd[2077]: Server listening on 0.0.0.0 port 22.
+2026-10-22T13:30:21.409432-03:00 thiagomurta sshd[2077]: Server listening on :: port 22.
+2026-10-22T13:30:21.598294-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-22T13:30:21.621899-03:00 thiagomurta systemd-logind[1477]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-22T13:30:21.741634-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-22T13:30:21.742476-03:00 thiagomurta systemd-logind[1477]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-22T13:30:46.075288-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-22T13:30:46.075567-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-22T13:30:46.082050-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-22T13:30:46.088493-03:00 thiagomurta systemd-logind[1477]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-22T13:30:46.137643-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-22T13:30:46.138267-03:00 thiagomurta systemd-logind[1477]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-22T13:30:46.429131-03:00 thiagomurta gnome-keyring-daemon[4979]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-22T13:30:46.435488-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-22T13:30:48.252892-03:00 thiagomurta gnome-keyring-daemon[4979]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-22T13:30:48.859724-03:00 thiagomurta dbus-daemon[1446]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2469 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5714 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T13:30:48.889527-03:00 thiagomurta dbus-daemon[1446]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2469 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5714 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T13:30:48.896655-03:00 thiagomurta dbus-daemon[1446]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2469 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5714 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T13:30:48.902435-03:00 thiagomurta dbus-daemon[1446]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2469 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5714 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T13:30:48.905630-03:00 thiagomurta dbus-daemon[1446]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2469 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5714 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T13:30:49.935457-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-22T13:30:49.938279-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-22T13:30:50.099705-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-22T13:30:50.104458-03:00 thiagomurta systemd-logind[1477]: Session c1 logged out. Waiting for processes to exit.
+2026-10-22T13:30:50.105676-03:00 thiagomurta systemd-logind[1477]: Removed session c1.
+2026-10-22T13:31:00.416552-03:00 thiagomurta systemd-logind[1477]: Removed session 1.
+2026-10-22T13:31:00.416760-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-22T13:31:23.308909-03:00 thiagomurta systemd-logind[1477]: Watching system buttons on /dev/input/event9 (QCY AilyPods (AVRCP))
+2026-10-22T13:32:58.929038-03:00 thiagomurta dbus-daemon[1446]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.89" (uid=1000 pid=4997 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=1445 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2026-10-22T13:32:58.950360-03:00 thiagomurta dbus-daemon[1446]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.89" (uid=1000 pid=4997 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.4" (uid=0 pid=1445 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2026-10-22T13:32:58.951085-03:00 thiagomurta dbus-daemon[1446]: message repeated 20 times: [ [system] Rejected send message, 0 matched rules; type="error", sender=":1.89" (uid=1000 pid=4997 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.4" (uid=0 pid=1445 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")]
+2026-10-22T13:32:58.952278-03:00 thiagomurta dbus-daemon[1446]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.4" (uid=0 pid=1445 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.90" (uid=1000 pid=4997 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-22T13:33:08.071139-03:00 thiagomurta systemd-logind[1477]: Watching system buttons on /dev/input/event9 (QCY AilyPods (AVRCP))
+2026-10-22T14:17:01.355557-03:00 thiagomurta CRON[26499]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T14:17:01.359242-03:00 thiagomurta CRON[26499]: pam_unix(cron:session): session closed for user root
+2026-10-22T14:30:01.368790-03:00 thiagomurta CRON[28403]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T14:30:01.370671-03:00 thiagomurta CRON[28403]: pam_unix(cron:session): session closed for user root
+2026-10-22T14:30:51.652219-03:00 thiagomurta gnome-keyring-daemon[4979]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-22T15:17:01.385685-03:00 thiagomurta CRON[42015]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T15:17:01.388381-03:00 thiagomurta CRON[42015]: pam_unix(cron:session): session closed for user root
+2026-10-22T15:30:01.395841-03:00 thiagomurta CRON[44444]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T15:30:01.397601-03:00 thiagomurta CRON[44444]: pam_unix(cron:session): session closed for user root
+2026-10-22T15:30:07.056103-03:00 thiagomurta gnome-keyring-daemon[4979]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-22T15:35:06.786541-03:00 thiagomurta gnome-keyring-daemon[4979]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-22T16:17:01.418329-03:00 thiagomurta CRON[57375]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T16:17:01.422189-03:00 thiagomurta CRON[57375]: pam_unix(cron:session): session closed for user root
+2026-10-22T16:20:51.785120-03:00 thiagomurta dbus-daemon[1446]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.89" (uid=1000 pid=4997 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=1445 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2026-10-22T16:21:03.267524-03:00 thiagomurta systemd-logind[1477]: The system will power off now!
+2026-10-22T16:21:03.292666-03:00 thiagomurta dbus-daemon[1446]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2469 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5714 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T16:21:03.315474-03:00 thiagomurta systemd-logind[1477]: System is powering down.
+2026-10-22T16:21:03.361990-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session closed for user thiagomurta
+2026-10-22T16:21:03.386421-03:00 thiagomurta dbus-daemon[1446]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.4" (uid=0 pid=1445 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.90" (uid=1000 pid=4997 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-22T16:21:03.421498-03:00 thiagomurta systemd-logind[1477]: Session 2 logged out. Waiting for processes to exit.
+2026-10-22T19:37:14.649704-03:00 thiagomurta systemd-logind[1500]: Watching system buttons on /dev/input/event9 (USB GAMING MOUSE  Keyboard)
+2026-10-22T19:37:14.649715-03:00 thiagomurta systemd-logind[1500]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-10-22T19:37:14.649720-03:00 thiagomurta systemd-logind[1500]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-10-22T19:37:14.649724-03:00 thiagomurta systemd-logind[1500]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-22T19:37:14.649729-03:00 thiagomurta systemd-logind[1500]: New seat seat0.
+2026-10-22T19:37:15.405286-03:00 thiagomurta sshd[2102]: Server listening on 0.0.0.0 port 22.
+2026-10-22T19:37:15.405423-03:00 thiagomurta sshd[2102]: Server listening on :: port 22.
+2026-10-22T19:37:15.669947-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-22T19:37:15.708226-03:00 thiagomurta systemd-logind[1500]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-22T19:37:15.761571-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-22T19:37:15.762549-03:00 thiagomurta systemd-logind[1500]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-22T19:37:16.419285-03:00 thiagomurta systemd-logind[1500]: Watching system buttons on /dev/input/event13 (SINO WEALTH Gaming KB  Consumer Control)
+2026-10-22T19:37:16.419393-03:00 thiagomurta systemd-logind[1500]: Watching system buttons on /dev/input/event14 (SINO WEALTH Gaming KB  Keyboard)
+2026-10-22T19:37:16.420336-03:00 thiagomurta systemd-logind[1500]: Watching system buttons on /dev/input/event11 (SINO WEALTH Gaming KB )
+2026-10-22T19:37:16.420405-03:00 thiagomurta systemd-logind[1500]: Watching system buttons on /dev/input/event12 (SINO WEALTH Gaming KB  System Control)
+2026-10-22T19:37:54.725791-03:00 thiagomurta gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-22T19:37:54.725895-03:00 thiagomurta gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-22T19:37:54.735746-03:00 thiagomurta gdm-password]: pam_unix(gdm-password:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-22T19:37:54.743409-03:00 thiagomurta systemd-logind[1500]: New session '2' of user 'thiagomurta' with class 'user' and type 'wayland'.
+2026-10-22T19:37:54.795159-03:00 thiagomurta (systemd): pam_unix(systemd-user:session): session opened for user thiagomurta(uid=1000) by thiagomurta(uid=0)
+2026-10-22T19:37:54.795832-03:00 thiagomurta systemd-logind[1500]: New session '3' of user 'thiagomurta' with class 'manager' and type 'unspecified'.
+2026-10-22T19:37:55.095493-03:00 thiagomurta gnome-keyring-daemon[5038]: keyring was in an invalid or unrecognized format: /home/thiagomurta/.local/share/keyrings/default.keyring
+2026-10-22T19:37:55.101301-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-22T19:37:57.834705-03:00 thiagomurta dbus-daemon[1469]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2502 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5769 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T19:37:57.861847-03:00 thiagomurta dbus-daemon[1469]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2502 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5769 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T19:37:57.869515-03:00 thiagomurta dbus-daemon[1469]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2502 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5769 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T19:37:57.873319-03:00 thiagomurta dbus-daemon[1469]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2502 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5769 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T19:37:57.876261-03:00 thiagomurta dbus-daemon[1469]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.34" (uid=0 pid=2502 comm="/usr/libexec/rtkit-daemon" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.123" (uid=1000 pid=5769 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+2026-10-22T19:37:58.432004-03:00 thiagomurta gnome-keyring-daemon[5038]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-22T19:37:58.890416-03:00 thiagomurta PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2026-10-22T19:37:58.892711-03:00 thiagomurta gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-22T19:37:58.896582-03:00 thiagomurta systemd-logind[1500]: Session c1 logged out. Waiting for processes to exit.
+2026-10-22T19:37:58.897027-03:00 thiagomurta PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2026-10-22T19:37:58.898646-03:00 thiagomurta systemd-logind[1500]: Removed session c1.
+2026-10-22T19:38:09.151836-03:00 thiagomurta systemd-logind[1500]: Removed session 1.
+2026-10-22T19:38:09.152148-03:00 thiagomurta (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-22T20:03:59.060693-03:00 thiagomurta gdm-password]: gkr-pam: unlocked login keyring
+2026-10-22T20:08:58.443417-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-22T20:08:58.471695-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-22T20:09:04.742544-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-22T20:09:13.222913-03:00 thiagomurta sudo: pam_unix(sudo:session): session opened for user root(uid=0) by thiagomurta(uid=1000)
+2026-10-22T20:09:13.223044-03:00 thiagomurta sudo: thiagomurta : TTY=/dev/pts/0 ; PWD=/home/thiagomurta ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-10-22T20:09:24.586021-03:00 thiagomurta sudo: pam_unix(sudo:session): session closed for user root
+2026-10-22T20:17:01.491317-03:00 thiagomurta CRON[12219]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T20:17:01.493415-03:00 thiagomurta CRON[12219]: pam_unix(cron:session): session closed for user root
+2026-10-22T20:29:30.994160-03:00 thiagomurta polkitd[1476]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-10-22T20:30:01.502421-03:00 thiagomurta CRON[14780]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T20:30:01.504343-03:00 thiagomurta CRON[14780]: pam_unix(cron:session): session closed for user root
+2026-10-22T20:33:53.174667-03:00 thiagomurta gnome-keyring-daemon[5038]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-22T20:38:02.611986-03:00 thiagomurta gnome-keyring-daemon[5038]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-22T21:09:26.938581-03:00 thiagomurta systemd-logind[1500]: Watching system buttons on /dev/input/event15 (QCY AilyPods (AVRCP))
+2026-10-22T21:17:01.527555-03:00 thiagomurta CRON[27146]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T21:17:01.530509-03:00 thiagomurta CRON[27146]: pam_unix(cron:session): session closed for user root
+2026-10-22T21:30:01.540493-03:00 thiagomurta CRON[30118]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T21:30:01.542598-03:00 thiagomurta CRON[30118]: pam_unix(cron:session): session closed for user root
+2026-10-22T21:38:02.655961-03:00 thiagomurta gnome-keyring-daemon[5038]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-22T22:17:01.562618-03:00 thiagomurta CRON[39542]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T22:17:01.565603-03:00 thiagomurta CRON[39542]: pam_unix(cron:session): session closed for user root
+2026-10-22T22:22:54.340494-03:00 thiagomurta gnome-keyring-daemon[5038]: asked to register item /org/freedesktop/secrets/collection/login/3, but it's already registered
+2026-10-22T22:30:01.577971-03:00 thiagomurta CRON[42507]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T22:30:01.580719-03:00 thiagomurta CRON[42507]: pam_unix(cron:session): session closed for user root
+2026-10-22T22:38:02.099002-03:00 thiagomurta gnome-keyring-daemon[5038]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-22T23:07:18.149794-03:00 thiagomurta dbus-daemon[1469]: [system] Rejected send message, 0 matched rules; type="method_return", sender=":1.87" (uid=1000 pid=5055 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1468 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2026-10-22T23:17:01.597909-03:00 thiagomurta CRON[48710]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T23:17:01.600738-03:00 thiagomurta CRON[48710]: pam_unix(cron:session): session closed for user root
+2026-10-22T23:30:01.613673-03:00 thiagomurta CRON[49391]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T23:30:01.618733-03:00 thiagomurta CRON[49391]: pam_unix(cron:session): session closed for user root
+2026-10-22T23:38:03.100669-03:00 thiagomurta gnome-keyring-daemon[5038]: asked to register item /org/freedesktop/secrets/collection/login/24, but it's already registered
+2026-10-23T00:17:01.638123-03:00 thiagomurta CRON[55285]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-23T00:17:01.640732-03:00 thiagomurta CRON[55285]: pam_unix(cron:session): session closed for user root

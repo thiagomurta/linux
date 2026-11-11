@@ -1,0 +1,82 @@
+Cloud-init v. 24.4-0ubuntu1~24.04.2 running 'init-local' at Sat, 22 Mar 2025 21:09:20 +0000. Up 1.85 seconds.
+Cloud-init v. 24.4-0ubuntu1~24.04.2 running 'init' at Sat, 22 Mar 2025 21:09:33 +0000. Up 14.29 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address            |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: |   lo   | True |          127.0.0.1           |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128            |       .       |  host  |         .         |
+ci-info: | wlp1s0 | True |        192.168.1.208         | 255.255.255.0 | global | 94:bb:43:95:f2:25 |
+ci-info: | wlp1s0 | True | fe80::7405:45b9:e5c7:45f1/64 |       .       |  link  | 94:bb:43:95:f2:25 |
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+-------------+---------------+---------------+-----------+-------+
+ci-info: | Route | Destination |    Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+-------------+---------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 192.168.1.254 |    0.0.0.0    |   wlp1s0  |   UG  |
+ci-info: |   1   | 192.168.1.0 |    0.0.0.0    | 255.255.255.0 |   wlp1s0  |   U   |
+ci-info: +-------+-------------+---------------+---------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   0   |  fe80::/64  |    ::   |   wlp1s0  |   U   |
+ci-info: |   2   |  multicast  |    ::   |   wlp1s0  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+The key fingerprint is:
+SHA256:Iz+HbMC069Q2cXEM73XMFZysAdQPD5ykZ0pS5WdZlNE root@thiagomurta-Vivobook-ASUSLaptop-M1502YA-M1502YA
+The key's randomart image is:
++---[RSA 3072]----+
+|          o+*o++X|
+|          .+oB BE|
+|      .  ..o++O++|
+|     o .  o++oo+ |
+|      = S ...    |
+|       B =       |
+|      o X .      |
+|     o o +       |
+|      .          |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+The key fingerprint is:
+SHA256:4JqXykCgmyf8mNJBUGqhaWNyFimTnT1OluH1I98VEp8 root@thiagomurta-Vivobook-ASUSLaptop-M1502YA-M1502YA
+The key's randomart image is:
++---[ECDSA 256]---+
+| =o+.o.   o..    |
+|*o=o*. .   o o   |
+|*Oo+..o o   E    |
+|*+o .. + o .     |
+|...   . S .      |
+|.+.  o .         |
+|+oo.o o          |
+|.o=o o           |
+|.o .o            |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+The key fingerprint is:
+SHA256:aSroqnjp8xUbQCOK6NZC+Mk36HZpaP/wEaWJKfk/RbU root@thiagomurta-Vivobook-ASUSLaptop-M1502YA-M1502YA
+The key's randomart image is:
++--[ED25519 256]--+
+|  . o            |
+|+. o .    .      |
+|=.  .   .. .     |
+|oo.+ + +..E      |
+| +B.= *.S        |
+|...* o B.        |
+|  *.B =.         |
+|.+++ *..         |
+|=+ooo.+.         |
++----[SHA256]-----+
+Cloud-init v. 24.4-0ubuntu1~24.04.2 running 'modules:config' at Sat, 22 Mar 2025 21:09:35 +0000. Up 16.87 seconds.
+Generating locales (this might take a while)...
+  pt_BR.UTF-8... done
+Generation complete.
+Cloud-init v. 24.4-0ubuntu1~24.04.2 running 'modules:final' at Sat, 22 Mar 2025 21:09:48 +0000. Up 29.10 seconds.
+Cloud-init v. 24.4-0ubuntu1~24.04.2 finished at Sat, 22 Mar 2025 21:09:48 +0000. Datasource DataSourceNone.  Up 29.16 seconds
