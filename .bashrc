@@ -125,4 +125,4 @@ export PATH="${HOME}/.local/bin:$PATH"
 . "$HOME/.cargo/env"
 
 # opencode
-export PATH=/home/thiagomurta/.opencode/bin:$PATH
+export PATH=$HOME/.opencode/bin:$PATH
